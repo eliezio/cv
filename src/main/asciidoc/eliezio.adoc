@@ -1,0 +1,214 @@
+= Curriculum vitae
+:hide-uri-scheme:
+
+== Personal details
+
+[cols="20,40,>.^~", grid="none", frame="none"]
+|===
+|Name:
+s|Eliezio Oliveira
+.7+a|image::me.jpg[align='right', pdfwidth="80"]
+
+|Address:
+| Athlone, Co. Westmeath, Ireland
+
+|Telephone:
+|+353 87 349 6688
+
+|Email:
+|eliezio@pm.me
+
+|LinkedIn:
+|https://linkedin.com/in/eliezio
+
+|GitHub:
+|https://github.com/eliezio
+|===
+
+
+== Professional summary
+
+As a professional in the ever-evolving landscape of technology, I believe that true value lies in the ability to dive deeply into complex problems, mastering the right set of tools or frameworks to solve them, and emerge with solutions that are not only functional but also efficient, scalable, and forward-thinking.
+
+== Work experience
+
+[cols=">14,2,60,>.^~", grid="none", frame="none"]
+|===
+
+|04.2022 - now
+|
+s|“link:https://www.beeline.com[Beeline Inc.] (formerly Utmost)”, Senior Backend Software Engineer
+|Dublin, Ireland
+
+|
+|
+2+a|
+* I tackled the GraphQL N+1 problem by introducing graphql-dataloader to critical sub-resolvers, advocating its benefits to backend developers, and providing mentoring for adoption. This led to significantly faster query response times and reduced database load.
+* I developed tools for integration tests that use datasource instrumentation to detect excessive queries caused by Spring Data/Hibernate mappings. This eliminated the issue in critical queries, improving efficiency.
+* Authored the OSS project dbQueryWatch (https://github.com/dbquerywatch/dbquerywatch).
+* _Kotlin, Spring Boot, GraphQL, PostgreSQL, Hibernate, AWS, Docker, Kubernetes, Testcontainers, ArchUnit, Gradle, Gitlab_
+
+
+|08.2021 – 03.2022
+|
+s|“link:https://teckro.com/[Teckro Ltd]”, Senior Backend Software Engineer
+|Dublin, Ireland
+
+|
+|
+2+a|
+* I introduced integration tests using a client generated from the OpenAPI spec and ensured only the spec was published to the local Maven repository. This eliminated contract breaks between REST services typical in the contract-last approach.
+* _Kotlin, Spring Boot, REST API, OpenAPI 3, MySQL, AWS, Docker, Kotest, JUnit 5, Testcontainers_
+
+|2020 – 2021
+|
+s|“link:https://aetion.com/[Aetion Inc.] (contractor via link:https://www.brq.com/[BRQ])”, Senior DevOps Engineer
+|New York, USA
+
+|
+|
+2+a|
+* I automated MySQL access management by implementing a GitOps-like engine that created temporary accounts based on a simple config file and removed them after a set time. A Flask-based front-end allowed users to request access via a bastion host, reducing the process to minutes while ensuring full automation and auditability.
+** OSS Backend: https://github.com/eliezio/sari
+** OSS Frontend: https://github.com/eliezio/sari-web
+* _Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch, Glue), Okta, Docker, Packer, Testcontainers, JavaScript, jQuery, Axios, Bootstrap_
+
+|01.2019 – 07.2020
+|
+s|“link:https://www.est.tech/[Ericsson Software Technology AB]”, Senior Engineer
+|Athlone, Ireland
+
+|
+|
+2+a|
+* I implemented automated acceptance tests using pact-like interactions in YAML, eliminating disruptive ONAP CCSDK updates. This saved hours of debugging per release, allowing Ericsson’s team to focus on new features.
+** link:https://github.com/onap/ccsdk-cds/blob/master/components/model-catalog/blueprint-model/uat-blueprints/README.md[Solution’s README]
+** link:++https://github.com/onap/ccsdk-cds/commits?author=eliezio.oliveira@est.tech++[My contributions to ONAP CCSDK]
+* I developed a NETCONF emulator using sysrepo and Netopeer2 for automated integration tests, initially for my project and later generalized for other Ericsson teams. This improved reliability and significantly reduced errors in NETCONF-related features.
+* _Kotlin, Python 3, Spring Boot, Mockito, Docker Compose, WireMock, Pitest_
+
+|2018
+|
+s|“link:https://komodoplatform.com/en/[Komodo]”, Freelancer
+|Zurich, Switzerland
+
+|
+|
+2+a|
+* Developed a smart client that auto-learned commands, sub-commands, and options from the server’s /help endpoint, ensuring a robust, adaptable tool compatible with future Market Maker versions.
+* _C, REST API, Google C++ Test Framework, Sonarqube, CMake_
+
+|===
+
+<<<
+
+[cols=">14,2,70,>.^~", grid="none", frame="none"]
+|===
+|2008 - 2014, +
+2016 – 2018
+|
+s|“link:https://www.riocardmais.com.br/[RioCard Tecnologia]”, Lead Software Developer
+|Rio de Janeiro, Brazil
+
+|
+|
+2+a|
+* Designed a secure, high-performance architecture for top-up terminals, cutting processing time from 15s to under 1s. Shifted 99.9% of processing to a central server, ensuring system security and seamless third-party integration, enabling RioCard expansion across hundreds of ATMs.
+* Redesigned the online card processing front-end, applying UX principles to improve usability. Developed a Single-Page Application with better hierarchy and contrast, making recharge operations more intuitive and user-friendly.
+* Developed a C-based SDK that improved RioCard validator integration by delegating sensitive operations to a Secure Authentication Module (SAM), enhancing security and increasing validator supplier competition.
+* _Java 8, JCE, Spring Boot, Spock Framework, TDD, Spring RESTDocs, MyBatis, JavaScript, jQuery, SOLID, Cryptography, C, Google C++ Test Framework, SAM, MIFARE Classic/Plus, HSM (IBM z/OS ICSF), Jenkins, Prometheus, Grafana_
+
+|2000 – 2008, +
+2014 - 2016
+|
+s|“MUXI Tech (now link:https://dock.tech/en/[Dock])”, Lead Software Developer
+|Rio de Janeiro, Brazil
+
+|
+|
+2+a|
+* Developed an IP stack for payment terminals with minimal RAM, enabling internet-based services beyond payments. Ported PPP, implemented IP/UDP layers, and built a credit bureau query app within 14kB memory. Showcased in Costa Rica, later deployed on 2M+ terminals in Brazil, helping transform the company into a leading POS solutions provider.
+* Optimized mTLS for resource-limited terminals by replacing a slow multi-precision arithmetic library in a commercial TLS solution with OpenSSL’s counterpart. Reduced handshake time from over 2 minutes to 2.5 seconds, delivering a lightweight, high-performance security layer.
+* Developed a lightweight, single-threaded reactive middleware to resolve a critical integration issue with a major Acquirer. Deployed in production for over eight years with only two reported issues, it became the company’s most profitable product.
+* _C, TCP/IP, TLS, OpenSSL, Linux Socket API, Cryptography, Assembly, ISO-8583, SNMP_
+
+|===
+
+== Education
+
+[cols=">14,2,60,>.^~", grid="none", frame="none"]
+|===
+
+|2003 - 2008
+|
+s|Universidade Federal do Rio de Janeiro, Computer Science Department
+
+|Rio de Janeiro, Brazil
+
+|
+|
+2+a|
+* Bachelor of Computer Science. Final Year Project: “link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC.pdf[Implementing TLS Extensions on OpenSSL (RFC 3546)]”
+
+|===
+
+== Certificates
+
+- Confluent Certified Developer for Apache Kafka (link:https://www.credential.net/896265f9-2737-4bb5-b8c0-13f643f1545e[certificate])
+- Cryptography I, Coursera (link:https://drive.google.com/open?id=0B0T2QXQgpWAPb1NLeFNGbU1kR00[statement of accomplishment])
+
+== Programming skills
+
+[cols=">20h,2,~", grid="none", frame="none"]
+|===
+
+|General:
+|
+|OOP, design patterns, microservices architecture, hexagonal architecture (aka Ports & Adapters)
+
+|Languages:
+|
+|Java, Kotlin, Python, C
+
+|Databases:
+|
+|PostgreSQL, MySQL
+
+|Message brokers:
+|
+|Kafka, ActiveMQ
+
+|Spring ecosystem:
+|
+|Spring Framework, Spring Boot, Spring Data, Spring Security, Spring Integration, Spring AMQP, Spring Session, Spring Modulith
+
+|Spring Cloud ecosystem:
+|
+|Spring Cloud Stream, Spring Cloud OpenFeign, Spring Cloud Function, Spring Cloud Sleuth, Spring Cloud Config
+
+|Testing:
+|
+|Junit 5, AssertJ, Spring Test Framework, ArchUnit, Testcontainers, Awaitility, Spock Test Framework
+
+|Observability:
+|
+|Micrometer, Prometheus, Grafana, Loki, Zipkin, ELK stack
+
+|Other:
+|
+|Resilience4j, Caffeine, Shedlock,  MapStruct, Lombok, Guava, Hibernate, jOOQ, Mule ESB
+
+|Development tools:
+|
+|Maven, Gradle, IntelliJ IDEA, Git, GitHub, Gitlab, Jira, Confluence, Jenkins, Nexus, Sentry, SonarQube, Docker, Kubernetes, Asciidoc
+
+|Operating systems:
+|
+|macOS, Linux (ArchLinux, Ubuntu)
+
+|===
+
+== Language knowledge
+
+- Portuguese – native
+- English – spoken and written - fluent
