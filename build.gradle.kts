@@ -3,7 +3,7 @@ plugins {
     application
 }
 
-group = "pl.poznachowski"
+group = "io.eliez"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -11,9 +11,8 @@ repositories {
 }
 
 dependencies {
-    implementation("org.asciidoctor:asciidoctorj:2.5.10")
-    implementation("org.asciidoctor:asciidoctorj-pdf:2.3.9")
-    testImplementation(kotlin("test"))
+    implementation("org.asciidoctor:asciidoctorj:3.0.0")
+    implementation("org.asciidoctor:asciidoctorj-pdf:2.3.19")
 }
 
 tasks.test {
@@ -21,7 +20,7 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(8)
+    jvmToolchain(11)
 }
 
 application {
