@@ -4,12 +4,12 @@ page:
   margin: [0.4in, 0.35in, 0.5in, 0.35in]
 
 base:
-  font-size: 8.5
+  font-size: 10
 
 heading-h1:
   margin-top: 16
   margin-bottom: 10
-  font-size: 14
+  font-size: 16
   font-color: "#960019"
   text-transform: uppercase
 
@@ -17,7 +17,7 @@ heading-h2:
   margin-page-top: 0
   margin-top: 0
   margin-bottom: 6
-  font-size: 10
+  font-size: 12
   text-transform: uppercase
   border-width: [0, 0, 1, 0]
   border-color: "#960019"

@@ -1,5 +1,21 @@
 = Curriculum vitae
+:pdf-page-size: A4
 :hide-uri-scheme:
+:footnotes-title: Who’s Who
+
+:fn-utmost: footnote:[Utmost develops extended workforce management solutions to streamline the sourcing, management, and payment processes for non-employee workers like freelancers and contractors.]
+
+:fn-teckro: footnote:[Teckro Ltd develops technology solutions to streamline clinical trials in the life sciences industry.]
+
+:fn-aetion: footnote:[Aetion Inc develops software and data analytics solutions for the healthcare industry, focusing on real-world evidence to support decision-making in drug development and health outcomes.]
+
+:fn-est: footnote:[Ericsson Software Technology, a subsidiary of Ericsson, focuses on developing software solutions for telecommunications, specializing in network management, cloud systems, and digital services for telecom operators and enterprises.]
+
+:fn-komodo: footnote:[Komodo builds a blockchain for secure, scalable apps and crypto trades.]
+
+:fn-riocard: footnote:[RioCard Tecnologia da Informação S.A. develops and manages the RioCard, an electronic ticketing system used across public transportation in the State of Rio de Janeiro, Brazil.]
+
+:fn-muxi: footnote:[MUXI Tecnologia develops payment solutions focused on capturing and authorizing electronic transactions, specializing in software for point-of-sale systems, mobile devices, and web platforms to facilitate secure and efficient payment processing across Latin America.]
 
 == Personal details
 
@@ -7,7 +23,7 @@
 |===
 |Name:
 s|Eliezio Oliveira
-.7+a|image::me.jpg[align='right', pdfwidth="80"]
+.6+a|image::me.jpg[align='right', pdfwidth="80"]
 
 |Address:
 | Athlone, Co. Westmeath, Ireland
@@ -23,6 +39,10 @@ s|Eliezio Oliveira
 
 |GitHub:
 |https://github.com/eliezio
+
+|
+|
+a|image::stamp4.jpg[align='right', pdfwidth="80"]
 |===
 
 
@@ -32,12 +52,12 @@ As a professional in the ever-evolving landscape of technology, I believe that t
 
 == Work experience
 
-[cols=">14,2,60,>.^~", grid="none", frame="none"]
+[cols=">16,2,60,>.^~", grid="none", frame="none"]
 |===
 
 |04.2022 - now
 |
-s|“link:https://www.beeline.com[Beeline Inc.] (formerly Utmost)”, Senior Backend Software Engineer
+s|“link:https://www.beeline.com[Beeline Inc.] (formerly Utmost)”  {fn-utmost}, Senior Software Engineer
 |Dublin, Ireland
 
 |
@@ -48,34 +68,40 @@ s|“link:https://www.beeline.com[Beeline Inc.] (formerly Utmost)”, Senior Bac
 * Authored the OSS project dbQueryWatch (https://github.com/dbquerywatch/dbquerywatch).
 * _Kotlin, Spring Boot, GraphQL, PostgreSQL, Hibernate, AWS, Docker, Kubernetes, Testcontainers, ArchUnit, Gradle, Gitlab_
 
-
 |08.2021 – 03.2022
 |
-s|“link:https://teckro.com/[Teckro Ltd]”, Senior Backend Software Engineer
-|Dublin, Ireland
+s|“link:https://teckro.com/[Teckro Ltd]” {fn-teckro}, Senior Backend Engineer
+|Limerick, Ireland
 
 |
 |
 2+a|
 * I introduced integration tests using a client generated from the OpenAPI spec and ensured only the spec was published to the local Maven repository. This eliminated contract breaks between REST services typical in the contract-last approach.
-* _Kotlin, Spring Boot, REST API, OpenAPI 3, MySQL, AWS, Docker, Kotest, JUnit 5, Testcontainers_
+* _Kotlin, Spring Boot, REST API, OpenAPI 3, OpenAPI Generator, Gradle, MySQL, AWS, Docker, Kotest, JUnit 5, Testcontainers_
 
 |2020 – 2021
 |
-s|“link:https://aetion.com/[Aetion Inc.] (contractor via link:https://www.brq.com/[BRQ])”, Senior DevOps Engineer
+s|“link:https://aetion.com/[Aetion Inc.] (contractor via link:https://www.brq.com/[BRQ])” {fn-aetion}, Senior DevOps Engineer
 |New York, USA
 
 |
 |
 2+a|
-* I automated MySQL access management by implementing a GitOps-like engine that created temporary accounts based on a simple config file and removed them after a set time. A Flask-based front-end allowed users to request access via a bastion host, reducing the process to minutes while ensuring full automation and auditability.
+* I automated MySQL access management by implementing a GitOps-like engine that created temporary accounts based on a simple config file and removed them after a set time. A Flask-based front-end allowed users to request access via a bastion host, reducing the process to seconds while ensuring full automation and auditability.
 ** OSS Backend: https://github.com/eliezio/sari
 ** OSS Frontend: https://github.com/eliezio/sari-web
-* _Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch, Glue), Okta, Docker, Packer, Testcontainers, JavaScript, jQuery, Axios, Bootstrap_
+* _Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch, Glue), Okta, Docker, Packer, Testcontainers, Flask, JavaScript, jQuery, Axios, Bootstrap_
+
+|===
+
+<<<
+
+[cols=">16,2,60,>.^~", grid="none", frame="none"]
+|===
 
 |01.2019 – 07.2020
 |
-s|“link:https://www.est.tech/[Ericsson Software Technology AB]”, Senior Engineer
+s|“link:https://www.est.tech/[Ericsson Software Technology AB]” {fn-est}, Senior Engineer
 |Athlone, Ireland
 
 |
@@ -89,25 +115,20 @@ s|“link:https://www.est.tech/[Ericsson Software Technology AB]”, Senior Engi
 
 |2018
 |
-s|“link:https://komodoplatform.com/en/[Komodo]”, Freelancer
+s|“link:https://komodoplatform.com/en/[Komodo]” {fn-komodo}, Freelancer
 |Zurich, Switzerland
 
 |
 |
 2+a|
 * Developed a smart client that auto-learned commands, sub-commands, and options from the server’s /help endpoint, ensuring a robust, adaptable tool compatible with future Market Maker versions.
-* _C, REST API, Google C++ Test Framework, Sonarqube, CMake_
+** OSS repository: https://github.com/eliezio/marketmaker-cli
+* _C, REST API, Google C++ Test Framework, Sonarqube, CMake, Travis CI_
 
-|===
-
-<<<
-
-[cols=">14,2,70,>.^~", grid="none", frame="none"]
-|===
 |2008 - 2014, +
 2016 – 2018
 |
-s|“link:https://www.riocardmais.com.br/[RioCard Tecnologia]”, Lead Software Developer
+s|“link:https://www.riocardmais.com.br/[RioCard Tecnologia]” {fn-riocard}, Lead Software Developer
 |Rio de Janeiro, Brazil
 
 |
@@ -121,7 +142,7 @@ s|“link:https://www.riocardmais.com.br/[RioCard Tecnologia]”, Lead Software 
 |2000 – 2008, +
 2014 - 2016
 |
-s|“MUXI Tech (now link:https://dock.tech/en/[Dock])”, Lead Software Developer
+s|“MUXI Tech (now link:https://dock.tech/en/[Dock])” {fn-muxi}, Lead Software Developer
 |Rio de Janeiro, Brazil
 
 |
@@ -134,81 +155,36 @@ s|“MUXI Tech (now link:https://dock.tech/en/[Dock])”, Lead Software Develope
 
 |===
 
+<<<
+
 == Education
 
-[cols=">14,2,60,>.^~", grid="none", frame="none"]
+[cols=">16,1,60,>.^~", grid="none", frame="none"]
 |===
 
-|2003 - 2008
+|2006
 |
-s|Universidade Federal do Rio de Janeiro, Computer Science Department
+s|Universidade Federal do Rio de Janeiro
+(link:++https://www.topuniversities.com/university-subject-rankings/computer-science-information-systems?countries=br++[Brazil's Top 3]) +
+Computer Science Department
 
 |Rio de Janeiro, Brazil
 
 |
 |
 2+a|
-* Bachelor of Computer Science. Final Year Project: “link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC.pdf[Implementing TLS Extensions on OpenSSL (RFC 3546)]”
+* Bachelor of Computer Science. +
+Final Year Project: “link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC.pdf[Implementing TLS Extensions on OpenSSL (RFC 3546)]”, grade: 100
 
 |===
 
 == Certificates
 
-- Confluent Certified Developer for Apache Kafka (link:https://www.credential.net/896265f9-2737-4bb5-b8c0-13f643f1545e[certificate])
-- Cryptography I, Coursera (link:https://drive.google.com/open?id=0B0T2QXQgpWAPb1NLeFNGbU1kR00[statement of accomplishment])
-
-== Programming skills
-
-[cols=">20h,2,~", grid="none", frame="none"]
-|===
-
-|General:
-|
-|OOP, design patterns, microservices architecture, hexagonal architecture (aka Ports & Adapters)
-
-|Languages:
-|
-|Java, Kotlin, Python, C
-
-|Databases:
-|
-|PostgreSQL, MySQL
-
-|Message brokers:
-|
-|Kafka, ActiveMQ
-
-|Spring ecosystem:
-|
-|Spring Framework, Spring Boot, Spring Data, Spring Security, Spring Integration, Spring AMQP, Spring Session, Spring Modulith
-
-|Spring Cloud ecosystem:
-|
-|Spring Cloud Stream, Spring Cloud OpenFeign, Spring Cloud Function, Spring Cloud Sleuth, Spring Cloud Config
-
-|Testing:
-|
-|Junit 5, AssertJ, Spring Test Framework, ArchUnit, Testcontainers, Awaitility, Spock Test Framework
-
-|Observability:
-|
-|Micrometer, Prometheus, Grafana, Loki, Zipkin, ELK stack
-
-|Other:
-|
-|Resilience4j, Caffeine, Shedlock,  MapStruct, Lombok, Guava, Hibernate, jOOQ, Mule ESB
-
-|Development tools:
-|
-|Maven, Gradle, IntelliJ IDEA, Git, GitHub, Gitlab, Jira, Confluence, Jenkins, Nexus, Sentry, SonarQube, Docker, Kubernetes, Asciidoc
-
-|Operating systems:
-|
-|macOS, Linux (ArchLinux, Ubuntu)
-
-|===
+* Confluent Certified Developer for Apache Kafka (link:https://www.credential.net/896265f9-2737-4bb5-b8c0-13f643f1545e[certificate])
+* Parallel, Concurrent, and Distributed Programming in Java, Rice University (link:++https://coursera.org/share/0ceb4f6eced5e17f435bfb7623f19787++[certificate])
+* Cryptography I, Coursera (link:++https://drive.google.com/file/d/1mwbA8-oQwu4ErIDVxN80Nc6O_pMVFjUa/view?usp=drive_link++[statement of accomplishment])
 
 == Language knowledge
 
-- Portuguese – native
-- English – spoken and written - fluent
+* English – spoken and written - fluent
+* Portuguese – native
