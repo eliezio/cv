@@ -3,24 +3,58 @@ extends: default
 page:
   margin: [0.4in, 0.35in, 0.5in, 0.35in]
 
+font:
+  catalog:
+    merge: true
+    Nunito:
+      normal: Nunito-Medium.ttf
+      italic: Nunito-Italic.ttf
+      bold: Nunito-Bold.ttf
+      bold_italic: Nunito-BoldItalic.ttf
+
 base:
+  font-family: Nunito
+  font-size: 12
+
+role:
+  subtitle:
+    font-size: 12
+    font-color: #000000
+    text-align: center
+    font-style: normal
+    line-height: 0.2
+  subtitle2:
+    font-size: 20
+    font-color: #000000
+    text-align: center
+    font-style: normal
+  tenure:
+
+sidebar:
+  background_color: #fcfcfc
+  font-family: M+ 1mn
   font-size: 10
+  padding: 7
 
 heading-h1:
-  margin-top: 16
-  margin-bottom: 10
-  font-size: 16
-  font-color: "#960019"
-  text-transform: uppercase
+  line-height: 0.6
+  margin-bottom: 0
+  text-align: center
+  font-size: 34
+  font-color: #703f1c
 
 heading-h2:
   margin-page-top: 0
   margin-top: 0
   margin-bottom: 6
-  font-size: 12
+  font-size: 16
   text-transform: uppercase
   border-width: [0, 0, 1, 0]
   border-color: "#960019"
+
+heading-h3:
+  font-size: 14
+  margin-bottom: 2
 
 table:
   cell:

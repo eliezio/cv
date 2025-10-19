@@ -5,6 +5,7 @@ import java.io.File
 
 fun main() {
     val attributes = Attributes.builder()
+        .attribute("pdf-fontsdir", "src/main/asciidoc/fonts")
         .attribute("pdf-themesdir", "src/main/asciidoc/themes")
         .attribute("pdf-theme", "cv.yml")
         .build()
