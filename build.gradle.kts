@@ -1,6 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.2.20"
-    application
+    id("org.asciidoctor.jvm.pdf") version "4.0.5"
 }
 
 group = "io.eliez"
@@ -10,19 +9,19 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    implementation("org.asciidoctor:asciidoctorj:3.0.0")
-    implementation("org.asciidoctor:asciidoctorj-pdf:2.3.19")
+tasks.asciidoctorPdf {
+    fontsDirs(listOf("src/docs/asciidoc/fonts"))
+    setTheme("cv")
+    setOutputDir(file("cv"))
 }
 
-tasks.test {
-    useJUnitPlatform()
+tasks.build {
+    dependsOn(tasks.asciidoctorPdf)
 }
 
-kotlin {
-    jvmToolchain(21)
-}
-
-application {
-    mainClass.set("MainKt")
+pdfThemes {
+    local("cv") {
+        themeDir = file("src/docs/asciidoc/themes")
+        themeName = "cv.yml"
+    }
 }
