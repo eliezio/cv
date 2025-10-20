@@ -105,7 +105,7 @@ link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Ja
 
 === Bachelor of Computer Science
 
-link:https://ic.ufrj.br/info/sobre-o-bcc/[Universidade Federal do Rio de Janeiro] ([.small]#link:https://www.topuniversities.com/latin-america-caribbean-overall[ranked 5th in QS Latin America 2025]#)
+link:https://ic.ufrj.br/info/sobre-o-bcc/[Universidade Federal do Rio de Janeiro, Institute of Computing] ([.small]#link:https://www.topuniversities.com/latin-america-caribbean-overall[ranked 5th in QS Latin America 2025]#)
 
 ****
 **Final Year Project:** link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC.pdf[Implementing TLS Extensions on OpenSSL (RFC 3546)]
