@@ -16,6 +16,7 @@
 :fn-est: footnote:est[Ericsson Software Technology, a subsidiary of Ericsson, focuses on developing software solutions for telecommunications, specializing in network management, cloud systems, and digital services for telecom operators and enterprises.]
 
 :fn-riocard: footnote:riocard[RioCard Tecnologia da Informação S.A. develops and manages the RioCard, an electronic ticketing system used across public transportation in the State of Rio de Janeiro, Brazil.]
+:fn-komodo: footnote:komodo[Komodo is a secure and customizable blockchain ecosystem.]
 
 [.subtitle2]
 Lead Senior Software Engineer
@@ -90,6 +91,11 @@ Strengthened the stability of Ericsson’s ONAP CCSDK blueprint models by design
 ****
 **Skills/Technologies**: Kotlin, Python 3, Spring Boot, Mockito, Docker Compose, WireMock, Pitest
 ****
+
+=== Freelancer {cal} [.tenure]#Feb 2018#
+link:https://komodoplatform.com/en/[Komodo] {fn-komodo}, Sliema, Malta
+
+Developed a smart command-line client for Komodo’s BarterDEX platform that dynamically learned the API from a self-describing endpoint, simplifying integration and reducing maintenance overhead.
 
 === Lead Software Engineer {cal} [.tenure]#2008 - 2014, 2016 – 2018#
 link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Janeiro, Brazil
