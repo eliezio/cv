@@ -53,7 +53,7 @@ Contributed to the transformation of the main application to support multi-tenan
 
 * Identified and resolved major performance bottlenecks caused by N+1 query patterns in both GraphQL resolvers and database queries.
 * Introduced data loaders across the GraphQL layer and supported their adoption by coaching developers and providing implementation guidance.
-* Collaborated with backend engineers to integrate jOOQ for complex and performance-critical queries, improving query efficiency and maintainability.
+* Worked with backend engineers to introduce jOOQ for complex and performance-critical queries, improving query efficiency and maintainability.
 * Added integration tests to the CI pipeline to detect and prevent N+1 query issues, ensuring ongoing performance stability.
 
 ****
