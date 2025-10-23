@@ -39,7 +39,7 @@ link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Ja
 
 Contributed to the company’s cloud transformation initiative, focusing on the migration of cryptographic infrastructure from IBM mainframe to cloud HSM solutions.
 
-* Led the development of a cryptography abstraction service to centralize all application-level encryption and signing operations.
+* Led the development of a core service to centralize and secure key-managed cryptographic operations across applications.
 * Designed the service to route requests to downstream cloud HSM providers (initially AWS CloudHSM, later Oracle OCI Vault), with built-in fallback and retry mechanisms.
 * Accelerated migration and reduced integration complexity by decoupling client applications from specific HSM implementations.
 * Collaborated with Information Security Group to ensure secure key management and compliance during the transition from on-premises to cloud-based environments.
@@ -71,16 +71,16 @@ Improved server–client integration reliability and eliminated contract mismatc
 * Partnered with front-end developers to automate the generation process using JavaScript scripts, ensuring synchronized schemas and faster delivery cycles.
 
 ****
-**Skills/Technologies**: Kotlin, Spring Boot, OpenAPI 3, REST API, API First, MySQL, AWS, Docker, JUnit 5, Testcontainers
+**Skills/Technologies**: Kotlin, Spring Boot, OpenAPI 3, REST API, API First, MySQL, Docker, Testcontainers
 ****
 
-=== Senior DevOps Engineer {cal} [.tenure]#Aug 2020 - Jul 2021#
-link:https://aetion.com/[Aetion Inc.] (contractor via link:https://www.brq.com/en/home[BRQ]) {fn-aetion}, New York, USA
+=== Contract Senior DevOps Engineer {cal} [.tenure]#Aug 2020 - Jul 2021#
+link:https://aetion.com/[Aetion Inc.] (via link:https://www.brq.com/en/home[BRQ]) {fn-aetion}, New York, USA
 
-Automated the management of temporary database credentials, improving security and efficiency for data analysts’ access to production systems. Designed and implemented an infrastructure-as-code solution to provision and revoke temporary MySQL credentials automatically. Developed a Python-based web application that allowed analysts to request and manage access with built-in expiration controls.
+Automated the management of temporary database credentials, improving security and efficiency for data analysts’ access to production systems. Designed and implemented an infrastructure-as-code solution to provision and revoke temporary MySQL credentials automatically. Developed a self-service Flask application for analysts to manage access requests.
 
 ****
-**Skills/Technologies**: Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch, Glue), Okta, Docker, Packer, Testcontainers, Flask, JavaScript, jQuery, Axios, Bootstrap
+**Skills/Technologies**: Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch), Okta, Docker, Testcontainers, Flask, JavaScript, jQuery, Axios, Bootstrap
 ****
 
 === Senior Engineer {cal} [.tenure]#Jan 2019 - Jul 2020#
@@ -92,10 +92,10 @@ Strengthened the stability of Ericsson’s ONAP CCSDK blueprint models by design
 **Skills/Technologies**: Kotlin, Python 3, Spring Boot, Mockito, Docker Compose, WireMock, Pitest
 ****
 
-=== Freelancer {cal} [.tenure]#Feb 2018#
-link:https://komodoplatform.com/en/[Komodo] {fn-komodo}, Sliema, Malta
+=== Contract Software Developer {cal} [.tenure]#Feb 2018#
+link:https://komodoplatform.com/en/[Komodo Platform] {fn-komodo}, Sliema, Malta
 
-Developed a smart command-line client for Komodo’s BarterDEX platform that dynamically learned the API from a self-describing endpoint, simplifying integration and reducing maintenance overhead.
+Developed a link:https://github.com/eliezio/marketmaker-cli[smart command-line client for Komodo’s BarterDEX platform] that automatically learned and adapted to API changes, simplifying integration and reducing maintenance overhead.
 
 === Lead Software Engineer {cal} [.tenure]#2008 - 2014, 2016 – 2018#
 link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Janeiro, Brazil
