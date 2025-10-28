@@ -34,7 +34,7 @@ Versatile and impact-driven engineer with a strong focus on backend systems desi
 
 == Professional Experience
 
-=== Technical Consultant {cal} [.tenure]#Apr 2025 - present#
+=== Technical Consultant {cal} [.tenure]#Apr 2025 - Sep 2025#
 link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Janeiro, Brazil
 
 Contributed to the company’s cloud transformation initiative, focusing on the migration of cryptographic infrastructure from IBM mainframe to cloud HSM solutions.
