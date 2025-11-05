@@ -19,7 +19,8 @@ base:
 
 role:
   icon:
-#    font-color: #4f83ff  # DodgerBlue
+    font-size: 14
+    font-color: #363e4f
   subtitle:
     font-size: 12
     font-color: #000000
@@ -29,7 +30,7 @@ role:
   tenure:
 
 sidebar:
-  background_color: #404040
+  background_color: #363e4f
   font-color: #ffffff
   font-style: normal
   font-size: 20
@@ -38,7 +39,8 @@ sidebar:
   title:
     font-style: semi_bold
     font-size: 40
-    font-color: #ffba33
+    font-color: #ffffff
+    font-transform: uppercase
 
 admonition:
   background_color: #fcfcfc
@@ -47,11 +49,13 @@ admonition:
   padding: 7
   icon:
     tip:
-      size: 16
+      size: 14
+      stroke-color: #363e4f
       name: fa-tools
 #      stroke-color: #4f83ff  # DodgerBlue
     note:
-      size: 16
+      size: 14
+      stroke-color: #363e4f
       name: fa-graduation-cap
 #      stroke-color: #4f83ff  # DodgerBlue
 
@@ -69,7 +73,7 @@ heading-h2:
   font-size: 16
   text-transform: uppercase
   border-width: [0, 0, 1, 0]
-  border-color: "#960019"
+  border-color: "#dcdcdc"
 
 heading-h3:
   font-size: 14

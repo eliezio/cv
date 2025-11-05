@@ -4,7 +4,7 @@
 :footnotes-title: Who’s Who
 :icons: font
 
-:cal: &nbsp; icon:calendar-alt[set=fas,size=0.75x,role=icon]
+:cal: &nbsp; icon:calendar-alt[set=fas,role=icon]
 
 :fn-beeline: footnote:utmost[Beeline is a global provider of workforce management and vendor management system (VMS) solutions for contingent labor.]
 
