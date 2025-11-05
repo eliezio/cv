@@ -1,11 +1,10 @@
-= Eliezio Oliveira
 :stylesheet: ./golo.css
 :pdf-page-size: A4
 :hide-uri-scheme:
 :footnotes-title: Who’s Who
 :icons: font
 
-:cal: &nbsp; icon:calendar-alt[set=fas,size=0.75x,role=blue]
+:cal: &nbsp; icon:calendar-alt[set=fas,size=0.75x,role=icon]
 
 :fn-beeline: footnote:utmost[Beeline is a global provider of workforce management and vendor management system (VMS) solutions for contingent labor.]
 
@@ -19,11 +18,14 @@
 
 :fn-riocard: footnote:riocard[RioCard TI is a technology company responsible for the RioCard electronic fare collection system, one of Brazil’s largest transit ticketing platforms.]
 
-[.subtitle2]
+.Eliezio Oliveira
+****
+[.text-center]
 Lead Senior Software Engineer
+****
 
 [.subtitle]
-icon:envelope[set=fas,role=blue] link:mailto:eliezio@pm.me[eliezio@pm.me] | icon:whatsapp[set=fab,role=blue] +353 87 349 6688 | icon:linkedin[set=fab,role=blue] link:https://linkedin.com/in/eliezio[linkedin.com/in/eliezio] | icon:map-marker[set=fa,role=blue] link:+++https://www.google.com/maps/place/Athlone,+Co.+Westmeath/@52.3873731,-7.4592552,7z/+++[Athlone, Ireland]
+icon:envelope[set=fas,role=icon] link:mailto:eliezio@pm.me[eliezio@pm.me] | icon:whatsapp[set=fab,role=icon] +353 87 349 6688 | icon:linkedin[set=fab,role=icon] link:https://linkedin.com/in/eliezio[linkedin.com/in/eliezio] | icon:map-marker[set=fa,role=icon] link:+++https://www.google.com/maps/place/Athlone,+Co.+Westmeath/@52.3873731,-7.4592552,7z/+++[Athlone, Ireland]
 
 == Profile
 
@@ -41,9 +43,10 @@ Contributed to the company’s cloud transformation initiative, focusing on the 
 * Accelerated migration and reduced integration complexity by decoupling client applications from specific HSM implementations.
 * Collaborated with Information Security Group to ensure secure key management and compliance during the transition from on-premises to cloud-based environments.
 
-****
-**Skills/Technologies**: Java 17, Quarkus, SmallRye Fault Tolerance, Hexagonal Architecture, REST API, API First, OpenApi Generator, Hashicorp Vault, Docker, Kubernetes, AWS CloudHSM, Oracle OCI, Oracle PL/SQL, ArchUnit, Pact, Wiremock, Prometheus.
-****
+[TIP]
+====
+Java 17, Quarkus, SmallRye Fault Tolerance, Hexagonal Architecture, REST API, API First, OpenApi Generator, Hashicorp Vault, Docker, Kubernetes, AWS CloudHSM, Oracle OCI, Oracle PL/SQL, ArchUnit, Pact, Wiremock, Prometheus.
+====
 
 === Senior Backend Software Engineer {cal} [.tenure]#Apr 2022 - Mar 2025#
 link:https://www.beeline.com[Beeline Inc. (formerly Utmost)]  {fn-beeline}, Dublin, Ireland
@@ -55,9 +58,10 @@ Contributed to the transformation of the main application to support multi-tenan
 * Worked with backend engineers to introduce jOOQ for complex and performance-critical queries, improving query efficiency and maintainability.
 * Added integration tests to the CI pipeline to detect and prevent N+1 query issues, ensuring ongoing performance stability.
 
-****
-**Skills/Technologies**: Kotlin, Spring Boot, GraphQL, PostgreSQL, JPA/Hibernate, jOOQ, AWS, Docker, Kubernetes, Testcontainers, ArchUnit, Gradle, Gitlab
-****
+[TIP]
+====
+Kotlin, Spring Boot, GraphQL, PostgreSQL, JPA/Hibernate, jOOQ, AWS, Docker, Kubernetes, Testcontainers, ArchUnit, Gradle, Gitlab
+====
 
 === Senior Backend Engineer {cal} [.tenure]#Aug 2021 - Mar 2022#
 link:https://teckro.com/[Teckro Ltd] {fn-teckro}, Limerick, Ireland
@@ -67,27 +71,30 @@ Improved server–client integration reliability and eliminated contract mismatc
 * Introduced a CI-validated OpenAPI specification to formalize server–client contracts, eliminating recurrent integration issues.
 * Partnered with front-end developers to automate the generation process using JavaScript scripts, ensuring synchronized schemas and faster delivery cycles.
 
-****
-**Skills/Technologies**: Kotlin, Spring Boot, OpenAPI 3, REST API, API First, MySQL, Docker, Testcontainers
-****
+[TIP]
+====
+Kotlin, Spring Boot, OpenAPI 3, REST API, API First, MySQL, Docker, Testcontainers
+====
 
 === Contract Senior DevOps Engineer {cal} [.tenure]#Aug 2020 - Jul 2021#
 link:https://aetion.com/[Aetion Inc.] (via link:https://www.brq.com/en/home[BRQ]) {fn-aetion}, New York, USA (Remote)
 
 Automated the management of temporary database credentials, improving security and efficiency for data analysts’ access to production systems. Designed and implemented an infrastructure-as-code solution to provision and revoke temporary MySQL credentials automatically. Developed a self-service Flask application for analysts to manage access requests.
 
-****
-**Skills/Technologies**: Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch), Okta, Docker, Testcontainers, Flask, JavaScript, jQuery, Axios, Bootstrap
-****
+[TIP]
+====
+Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch), Okta, Docker, Testcontainers, Flask, JavaScript, jQuery, Axios, Bootstrap
+====
 
 === Senior Engineer {cal} [.tenure]#Jan 2019 - Jul 2020#
 link:https://www.est.tech/[Ericsson Software Technology AB] {fn-est}, Athlone, Ireland
 
 Strengthened the stability of Ericsson’s ONAP CCSDK blueprint models by designing and implementing automated integration tests within the UAT framework, ensuring reliability across frequent upstream releases. This increased release confidence and reduced debugging cycles by integrating link:https://github.com/onap/ccsdk-cds/blob/master/components/model-catalog/blueprint-model/uat-blueprints/README.md[UATs] into the CI/CD pipeline. You can view my contributions link:++https://github.com/onap/ccsdk-cds/commits?author=eliezio.oliveira@est.tech++[here].
 
-****
-**Skills/Technologies**: Kotlin, Python 3, Spring Boot, Mockito, Docker Compose, WireMock, Pitest
-****
+[TIP]
+====
+Kotlin, Python 3, Spring Boot, Mockito, Docker Compose, WireMock, Pitest
+====
 
 <<<
 
@@ -102,9 +109,10 @@ link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Ja
 * Resolved major security, performance, and reliability issues in RioCard’s contactless card operations by leading the design and development of a unified, server-centric architecture with lightweight terminals and 3rd-party ATM integration.
 * Increased system reliability to near-100% under peak loads and expanded the company’s service reach through hundreds of 3rd-party top-up venues.
 
-****
-**Skills/Technologies**: Java, Netty, Websockets, Java Cryptography Extension, TLS, PKIX, Spring Boot, MyBatis, JavaScript, jQuery, SOLID, Java Smartcard I/O (JSR 268), ISO-7816, MIFARE Classic/Plus, HSM, Spock Framework, TDD, C, Google C++ Test Framework, Jenkins, Micrometer, Prometheus, Grafana.
-****
+[TIP]
+====
+Java, Netty, Websockets, Java Cryptography Extension, TLS, PKIX, Spring Boot, MyBatis, JavaScript, jQuery, SOLID, Java Smartcard I/O (JSR 268), ISO-7816, MIFARE Classic/Plus, HSM, Spock Framework, TDD, C, Google C++ Test Framework, Jenkins, Micrometer, Prometheus, Grafana.
+====
 
 == Education
 
@@ -112,9 +120,10 @@ link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Ja
 
 link:https://ic.ufrj.br/info/sobre-o-bcc/[Universidade Federal do Rio de Janeiro, Institute of Computing] ([.small]#link:https://www.topuniversities.com/latin-america-caribbean-overall[ranked 5th in QS Latin America 2025]#)
 
-****
-**Final Year Project:** link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC.pdf[Implementing TLS Extensions on OpenSSL (RFC 3546)]
-****
+[NOTE]
+====
+Final Year Project: link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC.pdf[Implementing TLS Extensions on OpenSSL (RFC 3546)]
+====
 
 === Certifications
 

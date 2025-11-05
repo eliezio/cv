@@ -10,6 +10,7 @@ font:
       normal: Nunito-Medium.ttf
       italic: Nunito-Italic.ttf
       bold: Nunito-Bold.ttf
+      semi_bold: Nunito-SemiBold.ttf
       bold_italic: Nunito-BoldItalic.ttf
 
 base:
@@ -17,24 +18,42 @@ base:
   font-size: 12
 
 role:
+  icon:
+#    font-color: #4f83ff  # DodgerBlue
   subtitle:
     font-size: 12
     font-color: #000000
     text-align: center
     font-style: normal
     line-height: 0.2
-  subtitle2:
-    font-size: 20
-    font-color: #000000
-    text-align: center
-    font-style: normal
   tenure:
 
 sidebar:
+  background_color: #404040
+  font-color: #ffffff
+  font-style: normal
+  font-size: 20
+  padding: [0.15in, 1in, 0.35in, 1in]
+  line-height: 0.1
+  title:
+    font-style: semi_bold
+    font-size: 40
+    font-color: #ffba33
+
+admonition:
   background_color: #fcfcfc
   font-family: M+ 1mn
   font-size: 10
   padding: 7
+  icon:
+    tip:
+      size: 16
+      name: fa-tools
+#      stroke-color: #4f83ff  # DodgerBlue
+    note:
+      size: 16
+      name: fa-graduation-cap
+#      stroke-color: #4f83ff  # DodgerBlue
 
 heading-h1:
   line-height: 0.6
