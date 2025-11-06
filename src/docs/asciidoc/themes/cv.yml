@@ -51,12 +51,12 @@ admonition:
     tip:
       size: 14
       stroke-color: #363e4f
-      name: fa-tools
+      name: fas-tools
 #      stroke-color: #4f83ff  # DodgerBlue
     note:
       size: 14
       stroke-color: #363e4f
-      name: fa-graduation-cap
+      name: fas-graduation-cap
 #      stroke-color: #4f83ff  # DodgerBlue
 
 heading-h1:

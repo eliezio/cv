@@ -25,7 +25,7 @@ Lead Senior Software Engineer
 ****
 
 [.subtitle]
-icon:envelope[set=fas,role=icon] link:mailto:eliezio@pm.me[eliezio@pm.me] | icon:whatsapp[set=fab,role=icon] +353 87 349 6688 | icon:linkedin[set=fab,role=icon] link:https://linkedin.com/in/eliezio[linkedin.com/in/eliezio] | icon:map-marker[set=fa,role=icon] link:+++https://www.google.com/maps/place/Athlone,+Co.+Westmeath/@52.3873731,-7.4592552,7z/+++[Athlone, Ireland]
+icon:envelope[set=fas,role=icon] link:mailto:eliezio@pm.me[eliezio@pm.me] | icon:whatsapp-square[set=fab,role=icon] +353 87 349 6688 | icon:linkedin[set=fab,role=icon] link:https://linkedin.com/in/eliezio[linkedin.com/in/eliezio] | icon:map-marker-alt[set=fas,role=icon] link:+++https://www.google.com/maps/place/Athlone,+Co.+Westmeath/@52.3873731,-7.4592552,7z/+++[Athlone, Ireland]
 
 == Profile
 
@@ -45,6 +45,7 @@ Contributed to the company’s cloud transformation initiative, focusing on the 
 
 [TIP]
 ====
+[.text-left]
 Java 17, Quarkus, SmallRye Fault Tolerance, Hexagonal Architecture, REST API, API First, OpenApi Generator, Hashicorp Vault, Docker, Kubernetes, AWS CloudHSM, Oracle OCI, Oracle PL/SQL, ArchUnit, Pact, Wiremock, Prometheus.
 ====
 
@@ -60,6 +61,7 @@ Contributed to the transformation of the main application to support multi-tenan
 
 [TIP]
 ====
+[.text-left]
 Kotlin, Spring Boot, GraphQL, PostgreSQL, JPA/Hibernate, jOOQ, AWS, Docker, Kubernetes, Testcontainers, ArchUnit, Gradle, Gitlab
 ====
 
@@ -73,6 +75,7 @@ Improved server–client integration reliability and eliminated contract mismatc
 
 [TIP]
 ====
+[.text-left]
 Kotlin, Spring Boot, OpenAPI 3, REST API, API First, MySQL, Docker, Testcontainers
 ====
 
@@ -83,6 +86,7 @@ Automated the management of temporary database credentials, improving security a
 
 [TIP]
 ====
+[.text-left]
 Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch), Okta, Docker, Testcontainers, Flask, JavaScript, jQuery, Axios, Bootstrap
 ====
 
@@ -93,6 +97,7 @@ Strengthened the stability of Ericsson’s ONAP CCSDK blueprint models by design
 
 [TIP]
 ====
+[.text-left]
 Kotlin, Python 3, Spring Boot, Mockito, Docker Compose, WireMock, Pitest
 ====
 
@@ -111,6 +116,7 @@ link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Ja
 
 [TIP]
 ====
+[.text-left]
 Java, Netty, Websockets, Java Cryptography Extension, TLS, PKIX, Spring Boot, MyBatis, JavaScript, jQuery, SOLID, Java Smartcard I/O (JSR 268), ISO-7816, MIFARE Classic/Plus, HSM, Spock Framework, TDD, C, Google C++ Test Framework, Jenkins, Micrometer, Prometheus, Grafana.
 ====
 
