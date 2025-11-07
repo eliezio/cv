@@ -6,6 +6,8 @@
 
 :cal: &nbsp; icon:calendar-alt[set=fas,role=icon]
 
+:ext-link: icon:external-link-alt[set=fas,size=0.85x,role=light]
+
 :fn-beeline: footnote:utmost[Beeline is a global provider of workforce management and vendor management system (VMS) solutions for contingent labor.]
 
 :fn-teckro: footnote:teckro[Teckro Ltd develops technology solutions to streamline clinical trials in the life sciences industry.]
@@ -17,6 +19,8 @@
 :fn-komodo: footnote:komodo[Komodo is a secure and customizable blockchain ecosystem.]
 
 :fn-riocard: footnote:riocard[RioCard TI is a technology company responsible for the RioCard electronic fare collection system, one of Brazil’s largest transit ticketing platforms.]
+
+:fn-muxi: footnote:muxi[Muxi is a financial technology company that develops platforms for the payment market.]
 
 .Eliezio Oliveira
 ****
@@ -34,7 +38,7 @@ Versatile and impact-driven engineer with a strong focus on backend systems desi
 == Professional Experience
 
 === Technical Consultant {cal} [.tenure]#Apr 2025 - Sep 2025#
-link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Janeiro, Brazil (Remote)
+link:https://www.riocardmais.com.br/[RioCard Tecnologia {ext-link}] {fn-riocard}, Rio de Janeiro, Brazil (Remote)
 
 Contributed to the company’s cloud transformation initiative, focusing on the migration of cryptographic infrastructure from IBM z/OS ICSF to cloud-based HSM solutions.
 
@@ -46,11 +50,11 @@ Contributed to the company’s cloud transformation initiative, focusing on the 
 [TIP]
 ====
 [.text-left]
-Java 17, Quarkus, SmallRye Fault Tolerance, Hexagonal Architecture, REST API, API First, OpenApi Generator, Hashicorp Vault, Docker, Kubernetes, AWS CloudHSM, Oracle OCI, Oracle PL/SQL, ArchUnit, Pact, Wiremock, Prometheus.
+Java 17, Quarkus, Microservices, SmallRye Fault Tolerance, Hexagonal Architecture, REST API, API First, OpenApi Generator, Hashicorp Vault, Docker, Kubernetes, AWS CloudHSM, Oracle OCI, Oracle PL/SQL, Prometheus.
 ====
 
 === Senior Backend Software Engineer {cal} [.tenure]#Apr 2022 - Mar 2025#
-link:https://www.beeline.com[Beeline Inc. (formerly Utmost)]  {fn-beeline}, Dublin, Ireland
+link:https://www.beeline.com[Beeline Inc. {ext-link}]  {fn-beeline}, Dublin, Ireland
 
 Contributed to the transformation of the main application to support multi-tenancy and improve scalability, reducing overall operational costs.
 
@@ -62,11 +66,11 @@ Contributed to the transformation of the main application to support multi-tenan
 [TIP]
 ====
 [.text-left]
-Kotlin, Spring Boot, GraphQL, PostgreSQL, JPA/Hibernate, jOOQ, AWS, Docker, Kubernetes, Testcontainers, ArchUnit, Gradle, Gitlab
+Kotlin, Spring Boot, SQL, Microservices, GraphQL, REST API, PostgreSQL, JPA/Hibernate, jOOQ, AWS, Docker, Kubernetes, Testcontainers, CI/CD, Gradle, Gitlab
 ====
 
 === Senior Backend Engineer {cal} [.tenure]#Aug 2021 - Mar 2022#
-link:https://teckro.com/[Teckro Ltd] {fn-teckro}, Limerick, Ireland
+link:https://teckro.com/[Teckro Ltd {ext-link}] {fn-teckro}, Limerick, Ireland
 
 Improved server–client integration reliability and eliminated contract mismatches through automation and formalized API governance.
 
@@ -76,40 +80,48 @@ Improved server–client integration reliability and eliminated contract mismatc
 [TIP]
 ====
 [.text-left]
-Kotlin, Spring Boot, OpenAPI 3, REST API, API First, MySQL, Docker, Testcontainers
+Kotlin, Spring Boot, Microservices, OpenAPI 3, REST API, API First, MySQL, Docker, Testcontainers
 ====
 
 === Contract Senior DevOps Engineer {cal} [.tenure]#Aug 2020 - Jul 2021#
-link:https://aetion.com/[Aetion Inc.] (via link:https://www.brq.com/en/home[BRQ]) {fn-aetion}, New York, USA (Remote)
+link:https://aetion.com/[Aetion Inc. {ext-link}] (via link:https://www.brq.com/en/home[BRQ]) {fn-aetion}, New York, USA (Remote)
 
 Automated the management of temporary database credentials, improving security and efficiency for data analysts’ access to production systems. Designed and implemented an infrastructure-as-code solution to provision and revoke temporary MySQL credentials automatically. Developed a self-service Flask application for analysts to manage access requests.
 
 [TIP]
 ====
 [.text-left]
-Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch), Okta, Docker, Testcontainers, Flask, JavaScript, jQuery, Axios, Bootstrap
+Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch), Infrastructure-as-Code, Okta, Docker, Testcontainers, CI/CD, Flask, JavaScript, jQuery, Axios, Bootstrap
 ====
 
 === Senior Engineer {cal} [.tenure]#Jan 2019 - Jul 2020#
-link:https://www.est.tech/[Ericsson Software Technology AB] {fn-est}, Athlone, Ireland
+link:https://www.est.tech/[Ericsson Software Technology AB {ext-link}] {fn-est}, Athlone, Ireland
 
 Strengthened the stability of Ericsson’s ONAP CCSDK blueprint models by designing and implementing automated integration tests within the UAT framework, ensuring reliability across frequent upstream releases. This increased release confidence and reduced debugging cycles by integrating link:https://github.com/onap/ccsdk-cds/blob/master/components/model-catalog/blueprint-model/uat-blueprints/README.md[UATs] into the CI/CD pipeline. You can view my contributions link:++https://github.com/onap/ccsdk-cds/commits?author=eliezio.oliveira@est.tech++[here].
 
 [TIP]
 ====
 [.text-left]
-Kotlin, Python 3, Spring Boot, Mockito, Docker Compose, WireMock, Pitest
+Kotlin, Python 3, Spring Boot, CI/CD, Jenkins, TDD, ATDD, Docker, WireMock
 ====
 
 <<<
 
+ifdef::komodo[]
 === Contract Software Developer {cal} [.tenure]#Feb 2018#
-link:https://komodoplatform.com/en/[Komodo Platform] {fn-komodo}, Sliema, Malta
+link:https://komodoplatform.com/en/[Komodo Platform {ext-link}] {fn-komodo}, Sliema, Malta (Remote)
 
 Developed a link:https://github.com/eliezio/marketmaker-cli[smart command-line client for Komodo’s BarterDEX platform] that automatically learned and adapted to API changes, simplifying integration and reducing maintenance overhead.
 
+[TIP]
+====
+[.text-left]
+C, REST API, Google C++ Test Framework, TDD.
+====
+endif::[]
+
 === Lead Software Engineer {cal} [.tenure]#2008 - 2014, 2016 – 2018#
-link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Janeiro, Brazil
+link:https://www.riocardmais.com.br/[RioCard Tecnologia {ext-link}] {fn-riocard}, Rio de Janeiro, Brazil
 
 * Resolved major security, performance, and reliability issues in RioCard’s contactless card operations by leading the design and development of a unified, server-centric architecture with lightweight terminals and 3rd-party ATM integration.
 * Increased system reliability to near-100% under peak loads and expanded the company’s service reach through hundreds of 3rd-party top-up venues.
@@ -117,18 +129,31 @@ link:https://www.riocardmais.com.br/[RioCard Tecnologia] {fn-riocard}, Rio de Ja
 [TIP]
 ====
 [.text-left]
-Java, Netty, Websockets, Java Cryptography Extension, TLS, PKIX, Spring Boot, MyBatis, JavaScript, jQuery, SOLID, Java Smartcard I/O (JSR 268), ISO-7816, MIFARE Classic/Plus, HSM, Spock Framework, TDD, C, Google C++ Test Framework, Jenkins, Micrometer, Prometheus, Grafana.
+Java, Netty, Websockets, Java Cryptography Extension, TLS, PKIX, Spring Boot, MyBatis, JavaScript, jQuery, SOLID, Java Smartcard I/O (JSR 268), MIFARE Classic/Plus, HSM, Spock Framework, TDD, C, Google C++ Test Framework, Jenkins, Micrometer, Prometheus, Grafana.
 ====
+
+ifdef::muxi[]
+=== Senior Software Engineer {cal} [.tenure]#2004 - 2008, 2014 – 2016#
+link:https://www.muxi.com.br/[Muxi Tecnologia em Pagamentos S.A. {ext-link}] {fn-muxi}, Rio de Janeiro, Brazil
+
+* Architected and led the development of the first wide-deployed communication stack (TCP/IP, TLS/mTLS) for the link:+++https://tsdr.uspto.gov/#caseNumber=78407735&caseType=SERIAL_NO&searchType=statusSearch+++[POSWEB(TM) {ext-link}] platform, deployed to more than two million devices in Brazil and other countries.
+* Architected and developed a high-performance and high-available (99.999% uptime) middleware to integrate more than 1 million mobile POS terminals.
+[TIP]
+====
+[.text-left]
+C, TCP/IP, TLS, Cryptography.
+====
+endif::[]
 
 == Education
 
-=== Bachelor of Computer Science
+=== Bachelor of Computer Science, 2006
 
 link:https://ic.ufrj.br/info/sobre-o-bcc/[Universidade Federal do Rio de Janeiro, Institute of Computing] ([.small]#link:https://www.topuniversities.com/latin-america-caribbean-overall[ranked 5th in QS Latin America 2025]#)
 
 [NOTE]
 ====
-Final Year Project: link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC.pdf[Implementing TLS Extensions on OpenSSL (RFC 3546)]
+Final Year Project: link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC.pdf[Implementing TLS Extensions on OpenSSL (RFC 3546) {ext-link}]
 ====
 
 === Certifications
@@ -143,3 +168,7 @@ Final Year Project: link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC
 
 * English: Full Professional Proficiency (link:+++https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages#Common_reference_levels+++[C1 Level])
 * Portuguese: native
+
+ifdef::footnotes-on-next-page[]
+<<<
+endif::[]

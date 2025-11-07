@@ -11,6 +11,7 @@ font:
       italic: Nunito-Italic.ttf
       bold: Nunito-Bold.ttf
       semi_bold: Nunito-SemiBold.ttf
+      light: Nunito-Light.ttf
       bold_italic: Nunito-BoldItalic.ttf
 
 base:
@@ -21,6 +22,8 @@ role:
   icon:
     font-size: 14
     font-color: #363e4f
+  light:
+    font-style: light
   subtitle:
     font-size: 12
     font-color: #000000
@@ -52,12 +55,10 @@ admonition:
       size: 14
       stroke-color: #363e4f
       name: fas-tools
-#      stroke-color: #4f83ff  # DodgerBlue
     note:
       size: 14
       stroke-color: #363e4f
       name: fas-graduation-cap
-#      stroke-color: #4f83ff  # DodgerBlue
 
 heading-h1:
   line-height: 0.6
