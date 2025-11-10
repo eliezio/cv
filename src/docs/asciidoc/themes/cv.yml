@@ -10,8 +10,6 @@ font:
       normal: Nunito-Medium.ttf
       italic: Nunito-Italic.ttf
       bold: Nunito-Bold.ttf
-      semi_bold: Nunito-SemiBold.ttf
-      light: Nunito-Light.ttf
       bold_italic: Nunito-BoldItalic.ttf
 
 base:
@@ -20,10 +18,8 @@ base:
 
 role:
   icon:
-    font-size: 14
+    font-size: 12
     font-color: #363e4f
-  light:
-    font-style: light
   subtitle:
     font-size: 12
     font-color: #000000
@@ -31,6 +27,8 @@ role:
     font-style: normal
     line-height: 0.2
   tenure:
+
+# Used for the top banner
 
 sidebar:
   background_color: #363e4f
@@ -40,7 +38,6 @@ sidebar:
   padding: [0.15in, 1in, 0.35in, 1in]
   line-height: 0.1
   title:
-    font-style: semi_bold
     font-size: 40
     font-color: #ffffff
     font-transform: uppercase
@@ -80,10 +77,13 @@ heading-h3:
   font-size: 14
   margin-bottom: 2
 
+codespan:
+  font-color: #000000
+
 table:
-  cell:
-    line-height: 1
-    padding: [0, 0, 2, 2]
+  head:
+    font-color: #363e4f
+    background-color: #f5f5f5
 
 list:
   indent: 10
