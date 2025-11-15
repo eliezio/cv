@@ -15,32 +15,37 @@ font:
 base:
   font-family: Nunito
   font-size: 12
+  color:
+    accent: #363e4f
+    link: #5589c5
 
 role:
   icon:
     font-size: 12
-    font-color: #363e4f
+    font-color: $base-color-accent
   subtitle:
     font-size: 12
     font-color: #000000
     text-align: center
     font-style: normal
     line-height: 0.2
+  tagline:
+    font-size: 11
   tenure:
 
 # Used for the top banner
 
 sidebar:
-  background_color: #363e4f
+  background_color: $base-color-accent
   font-color: #ffffff
   font-style: normal
   font-size: 20
   padding: [0.15in, 1in, 0.35in, 1in]
   line-height: 0.1
   title:
-    font-size: 40
+    font-style: normal
+    font-size: 45
     font-color: #ffffff
-    font-transform: uppercase
 
 admonition:
   background_color: #fcfcfc
@@ -50,11 +55,11 @@ admonition:
   icon:
     tip:
       size: 14
-      stroke-color: #363e4f
+      stroke-color: $base-color-accent
       name: fas-tools
     note:
       size: 14
-      stroke-color: #363e4f
+      stroke-color: $base-color-accent
       name: fas-graduation-cap
 
 heading-h1:
@@ -65,9 +70,6 @@ heading-h1:
   font-color: #703f1c
 
 heading-h2:
-  margin-page-top: 0
-  margin-top: 0
-  margin-bottom: 6
   font-size: 16
   text-transform: uppercase
   border-width: [0, 0, 1, 0]
@@ -77,12 +79,18 @@ heading-h3:
   font-size: 14
   margin-bottom: 2
 
+heading-h4:
+  font-style: normal
+  font-size: 12
+  font-color: $base-color-accent
+  margin-top: 0
+
 codespan:
   font-color: #000000
 
 table:
   head:
-    font-color: #363e4f
+    font-color: $base-color-accent
     background-color: #f5f5f5
 
 list:
