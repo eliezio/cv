@@ -9,17 +9,11 @@
 :ext-link: icon:external-link-alt[set=fas,size=0.85x]
 
 :tag-beeline: Global provider of workforce management solutions
-
 :tag-teckro: Clinical trial software platform for pharma and CROs
-
 :tag-aetion: US real-world evidence platform for biopharma and payers
-
-:tag-est: Open-source software division for telecom innovation
-
+:tag-est: Open-source software for telecom innovation
 :tag-komodo: Secure and customizable blockchain ecosystem
-
 :tag-riocard: Electronic ticketing tech for public transport
-
 :fn-muxi: footnote:muxi[Muxi is a financial technology company that develops platforms for the payment market.]
 
 .Eliezio *Oliveira*
@@ -121,7 +115,7 @@ ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Kotlin, Spring Boot, Microservices, OpenAPI 3, REST API, API First, MySQL, TypeScript, Docker, Testcontainers
+Kotlin, Spring Boot, Microservices, OpenAPI 3, REST API, API First, MySQL, TypeScript, Docker
 ====
 endif::[]
 
@@ -135,7 +129,7 @@ ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, APIGW, CodeBuild, ECR, S3, CloudWatch), Infrastructure-as-Code, Okta, Docker, Testcontainers, CI/CD, Flask, JavaScript, jQuery, Axios, Bootstrap
+Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, CodeBuild, ECR, S3, CloudWatch), Infrastructure-as-Code, Okta, Docker, Testcontainers, CI/CD, Flask, JavaScript, jQuery
 ====
 endif::[]
 
