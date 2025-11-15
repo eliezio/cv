@@ -6,14 +6,14 @@ page:
 font:
   catalog:
     merge: true
-    Nunito:
-      normal: Nunito-Medium.ttf
-      italic: Nunito-Italic.ttf
-      bold: Nunito-Bold.ttf
-      bold_italic: Nunito-BoldItalic.ttf
+    IBMPlexSans:
+      normal: IBMPlexSans-Regular.ttf
+      italic: IBMPlexSans-Italic.ttf
+      bold: IBMPlexSans-Bold.ttf
+      bold_italic: IBMPlexSans-BoldItalic.ttf
 
 base:
-  font-family: Nunito
+  font-family: IBMPlexSans
   font-size: 12
   color:
     accent: #363e4f
