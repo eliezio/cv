@@ -147,7 +147,7 @@ Kotlin, Python 3, Spring Boot, CI/CD, Jenkins, TDD, ATDD, Docker, WireMock
 ====
 endif::[]
 
-ifdef::komodo[]
+ifdef::exp-web3[]
 === Contract Software Developer {cal} [.tenure]#Feb 2018#
 [discrete]
 ==== link:https://komodoplatform.com/en/[Komodo Platform {ext-link}] | [.tagline]#{tag-komodo}# | Sliema, Malta (Remote)
@@ -181,7 +181,7 @@ Java, Netty, Websockets, Java Cryptography Extension, TLS, Spring Boot, MyBatis,
 ====
 endif::[]
 
-ifdef::muxi[]
+ifdef::exp-system-programming[]
 === Senior Software Engineer {cal} [.tenure]#2004 - 2008, 2014 – 2016#
 [discrete]
 ==== link:https://www.muxi.com.br/[Muxi Tecnologia em Pagamentos S.A. {ext-link}] | [.tagline]#{fn-muxi}# | Rio de Janeiro, Brazil
@@ -213,11 +213,13 @@ Final Year Project: link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC
 
 === Certifications
 
+ifdef::exp-web3[]
 * link:https://www.coursera.org/account/accomplishments/specialization/YYX9CUU3TW6S[Blockchain Specialization (University at Buffalo)]
+endif::[]
 * link:https://www.credential.net/896265f9-2737-4bb5-b8c0-13f643f1545e[Certified Developer for Apache Kafka (Confluent)]
 * link:https://coursera.org/share/0ceb4f6eced5e17f435bfb7623f19787[Parallel, Concurrent, and Distributed Programming in Java (Rice University)]
 * link:++https://drive.google.com/file/d/1mwbA8-oQwu4ErIDVxN80Nc6O_pMVFjUa/view?usp=drive_link++[Cryptography I (Stanford)]
-* link:https://www.coursera.org/account/accomplishments/verify/T5YA6KZQW6G5[Advanced Python Development Techniques (Microsoft)]
+// * link:https://www.coursera.org/account/accomplishments/verify/T5YA6KZQW6G5[Advanced Python Development Techniques (Microsoft)]
 
 == Languages
 
