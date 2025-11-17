@@ -17,7 +17,14 @@ base:
   font-size: 12
   color:
     accent: #363e4f
+    cultured: #f5f5f5
+    gainsboro: #dcdcdc
+    gray: #808080
     link: #5589c5
+    lotion: #fcfcfc
+    sepia: #703f1c
+    black: #000000
+    white: #ffffff
 
 role:
   icon:
@@ -25,7 +32,7 @@ role:
     font-color: $base-color-accent
   subtitle:
     font-size: 12
-    font-color: #000000
+    font-color: $base-color-black
     text-align: center
     font-style: normal
     line-height: 0.2
@@ -37,7 +44,7 @@ role:
 
 sidebar:
   background_color: $base-color-accent
-  font-color: #ffffff
+  font-color: $base-color-white
   font-style: normal
   font-size: 20
   padding: [0.15in, 1in, 0.35in, 1in]
@@ -45,10 +52,10 @@ sidebar:
   title:
     font-style: normal
     font-size: 45
-    font-color: #ffffff
+    font-color: $base-color-white
 
 admonition:
-  background_color: #fcfcfc
+  background_color: $base-color-lotion
   font-family: M+ 1mn
   font-size: 10
   padding: 7
@@ -67,13 +74,13 @@ heading-h1:
   margin-bottom: 0
   text-align: center
   font-size: 34
-  font-color: #703f1c
+  font-color: $base-color-sepia
 
 heading-h2:
   font-size: 16
   text-transform: uppercase
   border-width: [0, 0, 1, 0]
-  border-color: "#dcdcdc"
+  border-color: $base-color-gainsboro
 
 heading-h3:
   font-size: 14
@@ -86,12 +93,12 @@ heading-h4:
   margin-top: 0
 
 codespan:
-  font-color: #000000
+  font-color: $base-color-black
 
 table:
   head:
     font-color: $base-color-accent
-    background-color: #f5f5f5
+    background-color: $base-color-cultured
 
 list:
   indent: 10
@@ -100,7 +107,7 @@ list:
 footer:
   height: 40
   font-style: italic
-  font-color: "#808080"
+  font-color: $base-color-gray
   font-size: 7.5
 
   columns: 0% 100% 0%
