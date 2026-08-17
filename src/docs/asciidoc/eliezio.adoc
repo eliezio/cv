@@ -14,6 +14,7 @@
 :tag-est: Open-source software for telecom innovation
 :tag-komodo: Secure and customizable blockchain ecosystem
 :tag-riocard: Electronic ticketing tech for public transport
+:tag-fidelity: A global investment and financial services firm
 :fn-muxi: footnote:muxi[Muxi is a financial technology company that develops platforms for the payment market.]
 
 .Eliezio *Oliveira*
@@ -67,6 +68,18 @@ ifdef::single-skills-section[]
 endif::[]
 
 == Experience
+
+=== Senior Software Engineer {cal} [.tenure]#Jan 2026 - Present#
+[discrete]
+==== link:https://www.fidelity.com/[Fidelity Investments {ext-link}] | [.tagline]#{tag-fidelity}# | Galway, Ireland (Hybrid)
+
+ifndef::single-skills-section[]
+[TIP]
+====
+[.text-left]
+Java 17, Groovy, Spring Boot, Microservices, Service Optimization (JPA/Hibernate), Copilot/Copilot-CLI, REST API, TDD, ATDD, SpockFramework, Angular, Typescript, Cypress.
+====
+endif::[]
 
 === Technical Consultant {cal} [.tenure]#Apr 2025 - Sep 2025#
 [discrete]
