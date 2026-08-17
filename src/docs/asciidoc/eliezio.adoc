@@ -1,6 +1,7 @@
 :stylesheet: ./golo.css
 :pdf-page-size: A4
 :hide-uri-scheme:
+:nofooter:
 :footnotes-title: Who’s Who
 :icons: font
 
@@ -20,15 +21,15 @@
 .Eliezio *Oliveira*
 ****
 [.text-center]
-Lead Senior Software Engineer
+Lead Software Engineer
 ****
 
 [.subtitle]
-icon:envelope[set=fas,role=icon] link:mailto:eliezio@pm.me[eliezio@pm.me] | icon:phone[set=fas,role=icon] +353 87 349 6688 | icon:linkedin[set=fab,role=icon] link:https://linkedin.com/in/eliezio[in/eliezio] | icon:github[set=fab,role=icon] link:https://github.com/eliezio[gh/eliezio] | icon:map-pin[set=fas,role=icon] link:+++https://www.google.com/maps/place/Athlone,+Co.+Westmeath/@52.3873731,-7.4592552,7z/+++[Athlone, Ireland]
+icon:envelope[set=fas,role=icon] link:mailto:eliezio@pm.me[eliezio@pm.me] | icon:phone[set=fas,role=icon] +353 87 349 6688 | icon:linkedin[set=fab,role=icon] link:https://linkedin.com/in/eliezio[linkedin.com/in/eliezio] | icon:github[set=fab,role=icon] link:https://github.com/eliezio[github.com/eliezio] | icon:map-pin[set=fas,role=icon] link:+++https://www.google.com/maps/place/Athlone,+Co.+Westmeath/@52.3873731,-7.4592552,7z/+++[Athlone, Ireland]
 
-== About me
+== Professional Summary
 
-Experienced software engineer with a strong computer science foundation, broad technical range, and a relentless focus on designing and delivering robust, well-crafted solutions.
+Lead software engineer with 18+ years building distributed backend systems in Java, Kotlin, and Spring Boot. Deep experience in microservices, REST and GraphQL API design, PostgreSQL performance tuning, applied cryptography and HSM integration, and AWS/Kubernetes delivery. Strong computer science foundation, broad technical range, and a relentless focus on designing and delivering robust, well-crafted solutions.
 
 ifdef::single-skills-section[]
 == Technical Skills
@@ -77,7 +78,7 @@ ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Java 17, Groovy, Spring Boot, Microservices, Service Optimization (JPA/Hibernate), Copilot/Copilot-CLI, REST API, TDD, ATDD, SpockFramework, Angular, Typescript, Cypress.
+Skills: Java 17, Groovy, Spring Boot, Microservices, Service Optimization (JPA/Hibernate), Copilot/Copilot-CLI, REST API, TDD, ATDD, Spock Framework, Angular, TypeScript, Cypress.
 ====
 endif::[]
 
@@ -92,7 +93,7 @@ ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Java 17, Quarkus, Microservices, MicroProfile Fault Tolerance, Hexagonal Architecture, REST API, API First, Hashicorp Vault, Docker, Kubernetes, AWS CloudHSM, Oracle OCI, TDD, ATDD, Resilience Testing, Mutation Testing, Prometheus.
+Skills: Java 17, Quarkus, Microservices, MicroProfile Fault Tolerance, Hexagonal Architecture, REST API, API First, Hashicorp Vault, Docker, Kubernetes, AWS CloudHSM, Oracle OCI, TDD, ATDD, Resilience Testing, Mutation Testing, Prometheus.
 ====
 endif::[]
 
@@ -106,12 +107,13 @@ Contributed to the transformation of the main application to support multi-tenan
 * Introduced data loaders across the GraphQL layer and supported their adoption by coaching developers and providing implementation guidance.
 * Worked with backend engineers to introduce jOOQ for complex and performance-critical queries, improving query efficiency and maintainability.
 * Added integration tests to the CI pipeline to detect and prevent N+1 query issues, ensuring ongoing performance stability.
+* Took part in the production on-call rotation, diagnosing and resolving live messaging incidents across Kafka and ActiveMQ, including dead-letter queue (DLQ) backlogs, poison-pill serialization failures, and bloated queues.
 
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Kotlin, Spring Boot, SQL, Microservices, GraphQL, REST API, PostgreSQL, JPA/Hibernate, jOOQ, AWS, Docker, Kubernetes, Testcontainers, CI/CD, Gradle, Gitlab
+Skills: Kotlin, Spring Boot, SQL, Microservices, GraphQL, REST API, PostgreSQL, JPA/Hibernate, jOOQ, Kafka, ActiveMQ, AWS, Docker, Kubernetes, Testcontainers, CI/CD, Gradle, Gitlab, On-Call, Incident Response
 ====
 endif::[]
 
@@ -128,7 +130,7 @@ ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Kotlin, Spring Boot, Microservices, OpenAPI 3, REST API, API First, MySQL, TypeScript, Docker
+Skills: Kotlin, Spring Boot, Microservices, OpenAPI 3, REST API, API First, MySQL, TypeScript, Docker
 ====
 endif::[]
 
@@ -142,7 +144,7 @@ ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, CodeBuild, ECR, S3, CloudWatch), Infrastructure-as-Code, Okta, Docker, Testcontainers, CI/CD, Flask, JavaScript, jQuery
+Skills: Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, CodeBuild, ECR, S3, CloudWatch), Infrastructure-as-Code, Okta, Docker, Testcontainers, CI/CD, Flask, JavaScript, jQuery
 ====
 endif::[]
 
@@ -150,13 +152,13 @@ endif::[]
 [discrete]
 ==== link:https://www.est.tech/[Ericsson Software Technology AB {ext-link}] | [.tagline]#{tag-est}# | Athlone, Ireland
 
-Strengthened the stability of Ericsson’s ONAP CCSDK blueprint models by designing and implementing automated integration tests within the UAT framework, ensuring reliability across frequent upstream releases. This increased release confidence and reduced debugging cycles by integrating link:https://github.com/onap/ccsdk-cds/blob/master/components/model-catalog/blueprint-model/uat-blueprints/README.md[UATs] into the CI/CD pipeline. You can view my contributions link:++https://github.com/onap/ccsdk-cds/commits?author=eliezio.oliveira@est.tech++[here].
+Strengthened the stability of Ericsson’s ONAP CCSDK blueprint models by designing and implementing automated integration tests within the UAT framework, ensuring reliability across frequent upstream releases. This increased release confidence and reduced debugging cycles by integrating link:https://github.com/onap/ccsdk-cds/blob/master/components/model-catalog/blueprint-model/uat-blueprints/README.md[UATs] into the CI/CD pipeline. Upstream commits: link:++https://github.com/onap/ccsdk-cds/commits?author=eliezio.oliveira@est.tech++[github.com/onap/ccsdk-cds].
 
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Kotlin, Python 3, Spring Boot, CI/CD, Jenkins, TDD, ATDD, Docker, WireMock
+Skills: Kotlin, Python 3, Spring Boot, CI/CD, Jenkins, TDD, ATDD, Docker, WireMock
 ====
 endif::[]
 
@@ -171,7 +173,7 @@ ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-C, REST API, Google C++ Test Framework, TDD.
+Skills: C, REST API, Google C++ Test Framework, TDD.
 ====
 endif::[]
 
@@ -179,7 +181,7 @@ endif::[]
 
 endif::[]
 
-=== Lead Software Engineer {cal} [.tenure]#2008 - 2014, 2016 – 2018#
+=== Lead Software Engineer {cal} [.tenure]#2008 - 2014, 2016 - 2018#
 [discrete]
 ==== link:https://www.riocardmais.com.br/[RioCard Tecnologia {ext-link}] | [.tagline]#{tag-riocard}# | Rio de Janeiro, Brazil
 
@@ -190,12 +192,12 @@ ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Java, Netty, Websockets, Java Cryptography Extension, TLS, Spring Boot, MyBatis, JavaScript, jQuery, SOLID, HSM, Spock Framework, TDD, C, Google C++ Test Framework, Jenkins, Micrometer, Prometheus, Grafana.
+Skills: Java, Netty, Websockets, Java Cryptography Extension, TLS, Spring Boot, MyBatis, JavaScript, jQuery, SOLID, HSM, Spock Framework, TDD, C, Google C++ Test Framework, Jenkins, Micrometer, Prometheus, Grafana.
 ====
 endif::[]
 
 ifdef::exp-system-programming[]
-=== Senior Software Engineer {cal} [.tenure]#2004 - 2008, 2014 – 2016#
+=== Senior Software Engineer {cal} [.tenure]#2004 - 2008, 2014 - 2016#
 [discrete]
 ==== link:https://www.muxi.com.br/[Muxi Tecnologia em Pagamentos S.A. {ext-link}] | [.tagline]#{fn-muxi}# | Rio de Janeiro, Brazil
 
@@ -206,7 +208,7 @@ ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-C, TCP/IP, TLS, Cryptography.
+Skills: C, TCP/IP, TLS, Cryptography.
 ====
 endif::[]
 
@@ -224,7 +226,7 @@ endif::[]
 Final Year Project: link:https://github.com/eliezio/openssl-tlsx/blob/master/PFC.pdf[Implementing TLS Extensions on OpenSSL (RFC 3546) {ext-link}]
 ====
 
-=== Certifications
+== Certifications
 
 ifdef::exp-web3[]
 * link:https://www.coursera.org/account/accomplishments/specialization/YYX9CUU3TW6S[Blockchain Specialization (University at Buffalo)]

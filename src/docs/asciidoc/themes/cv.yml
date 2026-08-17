@@ -11,9 +11,14 @@ font:
       italic: IBMPlexSans-Italic.ttf
       bold: IBMPlexSans-Bold.ttf
       bold_italic: IBMPlexSans-BoldItalic.ttf
+    Calibri:
+      normal: Calibri-Regular.ttf
+      italic: Calibri-Italic.ttf
+      bold: Calibri-Bold.ttf
+      bold_italic: Calibri-BoldItalic.ttf
 
 base:
-  font-family: IBMPlexSans
+  font-family: Calibri
   font-size: 12
   color:
     accent: #363e4f
@@ -31,7 +36,7 @@ role:
     font-size: 12
     font-color: $base-color-accent
   subtitle:
-    font-size: 12
+    font-size: 10
     font-color: $base-color-black
     text-align: center
     font-style: normal
@@ -103,19 +108,3 @@ table:
 list:
   indent: 10
   item-spacing: 2
-
-footer:
-  height: 40
-  font-style: italic
-  font-color: $base-color-gray
-  font-size: 7.5
-
-  columns: 0% 100% 0%
-  recto:
-    center:
-      content: 'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process in accordance with the General Data Protection Regulation (EU) 2016/679 and applicable Irish data protection laws.
-'
-  verso:
-    center:
-      content: 'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process in accordance with the General Data Protection Regulation (EU) 2016/679 and applicable Irish data protection laws.
-'
