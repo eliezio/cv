@@ -123,3 +123,8 @@ gradle-app.setting
 hs_err_pid*
 replay_pid*
 
+/.agents/skills
+/.claude/skills
+/.direnv
+/.ruby-version
+/.envrc
