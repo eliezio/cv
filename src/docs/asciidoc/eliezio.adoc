@@ -30,7 +30,7 @@ icon:envelope[set=fas,role=icon] link:mailto:eliezio@pm.me[eliezio@pm.me] | icon
 
 == Professional Summary
 
-Lead software engineer with 20+ years building distributed backend systems in Java, Kotlin, and Spring Boot. Deep experience in microservices, REST and GraphQL API design, PostgreSQL performance tuning, applied cryptography and HSM integration, and AWS/Kubernetes delivery. Strong computer science foundation, broad technical range, and a relentless focus on designing and delivering robust, well-crafted solutions.
+Lead software engineer with 20+ years building distributed backend systems in Java, Kotlin, and Spring Boot. Deep experience in microservices, REST and GraphQL API design, PostgreSQL performance tuning, applied cryptography and HSM integration, and AWS/Kubernetes delivery. Author of two open-source libraries on Maven Central: dbQueryWatch, which catches slow queries before they reach production, and SLog4j, for structured event logging. Strong computer science foundation, broad technical range, and a relentless focus on designing and delivering robust, well-crafted solutions.
 
 ifdef::single-skills-section[]
 == Technical Skills
@@ -195,13 +195,14 @@ Extended and hardened the online transaction platform built during my first tenu
 
 * Raised automated coverage of the main application to nearly 70%, using end-to-end tests with minimal mocking so the suite stayed representative of production behaviour.
 * Established production observability for online card operations, instrumenting the platform and adding Prometheus and Grafana monitoring.
+* Created and adopted link:https://github.com/slog4j/slog4j[SLog4j {ext-link}], a structured event logging library for Java that replaces prose log messages with machine-parseable key-value events. Open-sourced and published to Maven Central.
 * Moved the client-server protocol to WebSockets, making communication HTTP-friendly and simplifying client integration.
 
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Skills: Java, Spring Boot, REST API, WebSockets, Spock Framework, TDD, End-to-End Testing, Micrometer, Prometheus, Grafana, Jenkins.
+Skills: Java, Spring Boot, REST API, WebSockets, SLF4J, Structured Logging, Spock Framework, TDD, End-to-End Testing, Micrometer, Prometheus, Grafana, Jenkins.
 ====
 endif::[]
 
