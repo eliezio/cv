@@ -102,19 +102,17 @@ endif::[]
 [discrete]
 ==== link:https://www.beeline.com[Beeline Inc. {ext-link}] | [.tagline]#{tag-beeline}# | Dublin, Ireland
 
-Contributed to the transformation of the main application to support multi-tenancy and improve scalability, reducing overall operational costs.
-
-* Identified and resolved major performance bottlenecks caused by N+1 query patterns in both GraphQL resolvers and database queries.
-* Introduced data loaders across the GraphQL layer and supported their adoption by coaching developers and providing implementation guidance.
-* Worked with backend engineers to introduce jOOQ for complex and performance-critical queries, improving query efficiency and maintainability.
-* Added integration tests to the CI pipeline to detect and prevent N+1 query issues, ensuring ongoing performance stability.
+* Led the campaign against N+1 query patterns across the platform, using Glowroot to trace and diagnose them in the JPA layer.
+* Eliminated N+1 in the GraphQL layer by introducing data loaders, driving adoption by coaching developers and providing implementation guidance.
+* Helped replace JPA with jOOQ on complex and performance-critical queries, improving query efficiency and maintainability.
+* Built link:https://github.com/dbquerywatch/dbquerywatch[dbQueryWatch {ext-link}] to shift slow-query detection left into the test suite: it analyses the execution plan of every query a test class issues and fails the build on full table scans or excessive cost. Open-sourced and published to Maven Central, supporting PostgreSQL, MySQL and Oracle.
 * Took part in the production on-call rotation, diagnosing and resolving live messaging incidents across Kafka and ActiveMQ, including dead-letter queue (DLQ) backlogs, poison-pill serialization failures, and bloated queues.
 
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Skills: Kotlin, Spring Boot, SQL, Microservices, GraphQL, REST API, PostgreSQL, JPA/Hibernate, jOOQ, Kafka, ActiveMQ, AWS, Docker, Kubernetes, Testcontainers, CI/CD, Gradle, Gitlab, On-Call, Incident Response
+Skills: Kotlin, Spring Boot, SQL, Microservices, GraphQL, REST API, PostgreSQL, JPA/Hibernate, jOOQ, Query Optimization, Glowroot, Kafka, ActiveMQ, AWS, Docker, Kubernetes, Testcontainers, CI/CD, Gradle, Gitlab, On-Call, Incident Response.
 ====
 endif::[]
 
