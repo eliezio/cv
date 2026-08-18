@@ -186,14 +186,17 @@ endif::[]
 [discrete]
 ==== link:https://www.riocardmais.com.br/[RioCard Tecnologia {ext-link}] | [.tagline]#{tag-riocard}# | Rio de Janeiro, Brazil
 
-* Resolved major security, performance, and reliability issues in RioCard’s contactless card operations by leading the design and development of a unified, server-centric architecture with lightweight terminals and 3rd-party ATM integration.
-* Increased system reliability to near-100% under peak loads and expanded the company’s service reach through hundreds of 3rd-party top-up venues.
+Extended and hardened the online transaction platform built during my first tenure.
+
+* Raised automated coverage of the main application to nearly 70%, using end-to-end tests with minimal mocking so the suite stayed representative of production behaviour.
+* Established production observability for online card operations, instrumenting the platform and adding Prometheus and Grafana monitoring.
+* Introduced WireMock to support a more HTTP-friendly client-server protocol, simplifying client integration and allowing server behaviour to be simulated in tests.
 
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Skills: Java, Netty, Websockets, Java Cryptography Extension, TLS, Spring Boot, MyBatis, JavaScript, jQuery, SOLID, HSM, Spock Framework, TDD, C, Google C++ Test Framework, Jenkins, Micrometer, Prometheus, Grafana.
+Skills: Java, Spring Boot, REST API, WebSockets, Spock Framework, TDD, End-to-End Testing, WireMock, Micrometer, Prometheus, Grafana, Jenkins.
 ====
 endif::[]
 
@@ -217,6 +220,19 @@ endif::[]
 === Senior Software Engineer {cal} [.tenure]#Aug 2008 - Aug 2014#
 [discrete]
 ==== link:https://www.riocardmais.com.br/[RioCard Tecnologia {ext-link}] | [.tagline]#{tag-riocard}# | Rio de Janeiro, Brazil
+
+* Re-architected online contactless card operations, moving database access and Mifare key diversification to the server and leaving only a hardened reader in the field, removing two attack surfaces: database connections exposed in open environments and theft-prone Security Access Modules (SAMs).
+* Cut online top-up from up to 60 seconds to roughly 1 second at peak load, sustaining near-100% reliability through asynchronous backend processing and targeted architecture tuning.
+* Extended the platform to online debit and large-scale card issuance, and integrated third-party ATM providers with minimal exposure of card-handling operations, reaching hundreds of third-party and public venues.
+* Designed a Lua-based middleware for POS terminals deployed to hundreds of devices across Metro stations, speeding delivery of ticketing applications and enabling automatic remote updates that removed on-site maintenance across the Rio de Janeiro metropolitan area.
+
+ifndef::single-skills-section[]
+[TIP]
+====
+[.text-left]
+Skills: Java, Netty, Java Cryptography Extension, TLS, HSM, SAM, Mifare Classic, MyBatis, Lua, C, Google C++ Test Framework, SOLID, JavaScript, jQuery.
+====
+endif::[]
 
 ifdef::exp-system-programming[]
 === Senior Software Engineer {cal} [.tenure]#Aug 2004 - Aug 2008#
