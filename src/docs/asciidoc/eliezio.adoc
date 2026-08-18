@@ -190,13 +190,13 @@ Extended and hardened the online transaction platform built during my first tenu
 
 * Raised automated coverage of the main application to nearly 70%, using end-to-end tests with minimal mocking so the suite stayed representative of production behaviour.
 * Established production observability for online card operations, instrumenting the platform and adding Prometheus and Grafana monitoring.
-* Introduced WireMock to support a more HTTP-friendly client-server protocol, simplifying client integration and allowing server behaviour to be simulated in tests.
+* Moved the client-server protocol to WebSockets, making communication HTTP-friendly and simplifying client integration.
 
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Skills: Java, Spring Boot, REST API, WebSockets, Spock Framework, TDD, End-to-End Testing, WireMock, Micrometer, Prometheus, Grafana, Jenkins.
+Skills: Java, Spring Boot, REST API, WebSockets, Spock Framework, TDD, End-to-End Testing, Micrometer, Prometheus, Grafana, Jenkins.
 ====
 endif::[]
 
@@ -222,9 +222,10 @@ endif::[]
 ==== link:https://www.riocardmais.com.br/[RioCard Tecnologia {ext-link}] | [.tagline]#{tag-riocard}# | Rio de Janeiro, Brazil
 
 * Re-architected online contactless card operations, moving database access and Mifare key diversification to the server and leaving only a hardened reader in the field, removing two attack surfaces: database connections exposed in open environments and theft-prone Security Access Modules (SAMs).
-* Cut online top-up from up to 60 seconds to roughly 1 second at peak load, sustaining near-100% reliability through asynchronous backend processing and targeted architecture tuning.
+* Cut online top-up from up to 60 seconds to roughly 1 second at peak load by deferring updates to high-contention database tables into batch operations, sustaining near-100% reliability.
 * Extended the platform to online debit and large-scale card issuance, and integrated third-party ATM providers with minimal exposure of card-handling operations, reaching hundreds of third-party and public venues.
 * Designed a Lua-based middleware for POS terminals deployed to hundreds of devices across Metro stations, speeding delivery of ticketing applications and enabling automatic remote updates that removed on-site maintenance across the Rio de Janeiro metropolitan area.
+* Tech-led a 4-engineer team building the web applications that operated in tandem with the online transaction platform.
 
 ifndef::single-skills-section[]
 [TIP]
