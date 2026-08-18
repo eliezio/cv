@@ -153,13 +153,18 @@ endif::[]
 [discrete]
 ==== link:https://www.est.tech/[Ericsson Software Technology AB {ext-link}] | [.tagline]#{tag-est}# | Athlone, Ireland
 
-Strengthened the stability of Ericsson’s ONAP CCSDK blueprint models by designing and implementing automated integration tests within the UAT framework, ensuring reliability across frequent upstream releases. This increased release confidence and reduced debugging cycles by integrating link:https://github.com/onap/ccsdk-cds/blob/master/components/model-catalog/blueprint-model/uat-blueprints/README.md[UATs] into the CI/CD pipeline. Upstream commits: link:++https://github.com/onap/ccsdk-cds/commits?author=eliezio.oliveira@est.tech++[github.com/onap/ccsdk-cds].
+Contributed upstream to ONAP Controller Design Studio (CDS), an open-source platform for telecom network automation.
+
+* Designed and built the link:https://github.com/onap/ccsdk-cds/blob/master/components/model-catalog/blueprint-model/uat-blueprints/README.md[User Acceptance Test (UAT) framework {ext-link}] for the CDS Blueprint Processor: declarative, data-driven specifications in YAML that run the service in a near-production configuration against an in-memory database with every external service mocked. Still maintained upstream today and now covering four blueprint models.
+* Added a `/spy` endpoint that records a blueprint run against live external services and emits a ready-to-use test specification, removing the need to hand-write them.
+* Rehabilitated the upstream test suite, re-enabling long-disabled tests across the NETCONF, gRPC and REST client modules, fixing order-dependent failures, and clearing bugs and vulnerabilities reported by SonarQube.
+* Integrated the UATs into the CI/CD pipeline, raising release confidence and cutting debugging cycles across frequent upstream releases. Contributions: link:++https://github.com/onap/ccsdk-cds/commits?author=eliezio.oliveira@est.tech++[github.com/onap/ccsdk-cds {ext-link}].
 
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Skills: Kotlin, Python 3, Spring Boot, CI/CD, Jenkins, TDD, ATDD, Docker, WireMock
+Skills: Kotlin, Spring Boot, Python 3, Maven, YAML, H2, REST API, gRPC, NETCONF, Docker, CI/CD, Jenkins, Gerrit, SonarQube, TDD, ATDD, WireMock.
 ====
 endif::[]
 
