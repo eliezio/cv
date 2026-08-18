@@ -139,13 +139,15 @@ endif::[]
 [discrete]
 ==== link:https://aetion.com/[Aetion Inc. {ext-link}] | [.tagline]#{tag-aetion}# | New York, USA (Remote)
 
-Automated the management of temporary database credentials, improving security and efficiency for data analysts’ access to production systems. Designed and implemented an infrastructure-as-code solution to provision and revoke temporary MySQL credentials automatically. Developed a self-service Flask application for analysts to manage access requests.
+* Designed and built link:++https://github.com/eliezio?tab=repositories&q=sari++[SARI {ext-link}] (Secure Access to RDS Instances), a declarative access-management system that removed standing database credentials for analysts: permissions, grant levels and validity windows live as version-controlled YAML, and the system reconciles them across MySQL grants, IAM, AWS Glue connections and bastion-host SSH keys.
+* Sourced identity from Okta and scheduled each reconciliation run from the next permission transition via CloudWatch, so access expires and renews with no manual intervention and no credential outlives its window.
+* Built a self-service web application for analysts to raise access requests, replacing an ad-hoc process while keeping every change reviewable and auditable in Git.
 
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Skills: Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, CodeBuild, ECR, S3, CloudWatch), Infrastructure-as-Code, Okta, Docker, Testcontainers, CI/CD, Flask, JavaScript, jQuery
+Skills: Python 3, Pulumi, Terraform, MySQL, SAML, AWS (IAM, Lambda, RDS, Glue, CodeBuild, ECR, S3, CloudWatch), Infrastructure-as-Code, GitOps, Okta, SSH, Docker, Testcontainers, CI/CD, pytest, Flask, JavaScript, jQuery.
 ====
 endif::[]
 
