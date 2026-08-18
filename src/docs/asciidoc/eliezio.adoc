@@ -75,11 +75,14 @@ endif::[]
 [discrete]
 ==== link:https://www.fidelity.com/[Fidelity Investments {ext-link}] | [.tagline]#{tag-fidelity}# | Galway, Ireland (Hybrid)
 
+* Cut database round-trips on the heaviest configuration endpoints from up to 3,300 queries per request to 1, replacing lazy-loading cascades with JPA entity graphs, and built a compatibility test kit (TCK) that verified the optimization left the REST API and Kafka messaging contracts untouched, comparing every response and published payload against the pre-change build.
+* Diagnosed production incidents and cross-environment performance discrepancies across a Java and Spring microservice estate, investigating container restarts and using Glowroot to trace query-time differences between pre-production and production.
+
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Skills: Java 17, Groovy, Spring Boot, Microservices, Service Optimization (JPA/Hibernate), Copilot/Copilot-CLI, REST API, TDD, ATDD, Spock Framework, Angular, TypeScript, Cypress.
+Skills: Java 17, Groovy, Shell Script, Spring Boot, Microservices, JPA/Hibernate, Query Optimization, Glowroot, Oracle, Kafka, REST API, API Gateway, Angular, TypeScript, Cypress, WireMock, Spock Framework, TDD, ATDD.
 ====
 endif::[]
 
