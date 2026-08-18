@@ -16,8 +16,7 @@
 :tag-komodo: Secure and customizable blockchain ecosystem
 :tag-riocard: Electronic ticketing tech for public transport
 :tag-fidelity: A global investment and financial services firm
-:fn-muxi: footnote:muxi[Muxi is a financial technology company that develops platforms for the payment market.]
-:fn-muxi-ref: footnote:muxi[]
+:tag-muxi: Payment technology platforms
 
 .Eliezio *Oliveira*
 ****
@@ -90,18 +89,16 @@ endif::[]
 [discrete]
 ==== link:https://www.riocardmais.com.br/[RioCard Tecnologia {ext-link}] | [.tagline]#{tag-riocard}# | Rio de Janeiro, Brazil (Remote)
 
-* Led the migration of cryptographic services from IBM z/OS ICSF to cloud HSMs (AWS CloudHSM, later Oracle OCI Vault), enabling client applications to start migration three months earlier through HSM abstraction and simplified integration.
-* Designed and built CryptoApi, the Quarkus service behind that migration: an API-first REST surface covering card security, digital signature, key distribution and receipt operations, authenticated by mutual TLS with per-client certificates and per-client endpoint authorization across the five consuming applications.
-* Shipped a Java 8-compatible client SDK generated from the OpenAPI specification, plus an Oracle PL/SQL integration path backed by Oracle Wallet, so both legacy applications and database stored procedures could adopt the service without changing runtime or platform.
-* Enforced the API contract in CI with Spectral linting, Pact consumer-driven contracts and Schemathesis property-based testing in both positive and negative modes, holding quality with ArchUnit rules, Pitest mutation testing and 100% coverage on application packages.
-* Automated security verification as part of the test suite, covering TLS posture and a role-versus-endpoint authorization matrix.
-* Partnered with the Information Security Group to design and conduct a new key ceremony, ensuring secure key management and compliance during the transition to cloud environments.
+* Led the migration of cryptographic services from IBM z/OS ICSF to cloud HSMs (AWS CloudHSM, later Oracle OCI Vault), designing and building CryptoApi: an API-first Quarkus service over card security, digital signature, key distribution and receipt operations, authenticated by mutual TLS with per-client certificates and endpoint authorization.
+* Let client applications begin migrating three months early by meeting each consumer where it was, with a Java 8-compatible SDK generated from the OpenAPI specification and an Oracle Wallet path for PL/SQL stored procedures calling the API over mTLS.
+* Enforced the API contract in CI with Spectral linting, Pact consumer-driven contracts and Schemathesis property-based testing, alongside ArchUnit rules, Pitest mutation testing and automated TLS and authorization-matrix checks.
+* Partnered with the Information Security Group to design and conduct a new key ceremony for the transition to cloud key management.
 
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Skills: Java 17, Quarkus, Microservices, MicroProfile Fault Tolerance, Hexagonal Architecture, DDD, REST API, API First, OpenAPI, mTLS, Oracle PL/SQL, Pact, Schemathesis, ArchUnit, Mutation Testing (Pitest), Gatling, HashiCorp Vault, AWS CloudHSM, Oracle OCI, JOSE/JWT, Docker, Kubernetes, GitLab CI, SonarQube, Error Prone, NullAway, TDD, ATDD, Resilience Testing, Prometheus, OpenTelemetry, Grafana.
+Skills: Java 17, Quarkus, Microservices, Hexagonal Architecture, DDD, REST API, API First, OpenAPI, mTLS, Oracle PL/SQL, Pact, Schemathesis, ArchUnit, Mutation Testing, HashiCorp Vault, AWS CloudHSM, Oracle OCI, JOSE/JWT, Docker, Kubernetes, GitLab CI, TDD, ATDD, Prometheus, Grafana.
 ====
 endif::[]
 
@@ -205,28 +202,12 @@ Extended and hardened the online transaction platform built during my first tenu
 * Created and adopted link:https://github.com/slog4j/slog4j[SLog4j {ext-link}], a structured event logging library for Java that replaces prose log messages with machine-parseable key-value events. Open-sourced and published to Maven Central.
 * Moved the client-server protocol to WebSockets, making communication HTTP-friendly and simplifying client integration.
 
-ifndef::single-skills-section[]
-[TIP]
-====
-[.text-left]
-Skills: Java, Spring Boot, REST API, WebSockets, SLF4J, Structured Logging, Spock Framework, TDD, End-to-End Testing, Micrometer, Prometheus, Grafana, Jenkins.
-====
-endif::[]
-
 ifdef::exp-system-programming[]
 === Lead Software Engineer {cal} [.tenure]#Aug 2014 - Aug 2016#
 [discrete]
-==== link:https://www.muxi.com.br/[Muxi Tecnologia em Pagamentos S.A. {ext-link}] | [.tagline]#{fn-muxi}# | Rio de Janeiro, Brazil
+==== link:https://www.muxi.com.br/[Muxi Tecnologia em Pagamentos S.A. {ext-link}] | [.tagline]#{tag-muxi}# | Rio de Janeiro, Brazil
 
 * Tech-led a 6-engineer team designing and building a payment scheme to strengthen the security of web-based credit card transactions, owning the architecture from protocol design through implementation.
-
-ifndef::single-skills-section[]
-[TIP]
-====
-[.text-left]
-Skills: Java, Spring, Angular, REST API, Payment Security, Cryptography, POS Terminals.
-====
-endif::[]
 
 endif::[]
 
@@ -240,29 +221,13 @@ endif::[]
 * Designed a Lua-based middleware for POS terminals deployed to hundreds of devices across Metro stations, speeding delivery of ticketing applications and enabling automatic remote updates that removed on-site maintenance across the Rio de Janeiro metropolitan area.
 * Tech-led a 4-engineer team building the web applications that operated in tandem with the online transaction platform.
 
-ifndef::single-skills-section[]
-[TIP]
-====
-[.text-left]
-Skills: Java, Netty, Java Cryptography Extension, TLS, HSM, SAM, Mifare Classic, MyBatis, Lua, C, Google C++ Test Framework, SOLID, JavaScript, jQuery.
-====
-endif::[]
-
 ifdef::exp-system-programming[]
 === Senior Software Engineer {cal} [.tenure]#Aug 2004 - Aug 2008#
 [discrete]
-==== link:https://www.muxi.com.br/[Muxi Tecnologia em Pagamentos S.A. {ext-link}] (formerly APPI Tecnologia) | [.tagline]#{fn-muxi-ref}# | Rio de Janeiro, Brazil
+==== link:https://www.muxi.com.br/[Muxi Tecnologia em Pagamentos S.A. {ext-link}] (formerly APPI Tecnologia) | [.tagline]#{tag-muxi}# | Rio de Janeiro, Brazil
 
 * Architected and led the development of the first wide-deployed communication stack (TCP/IP, TLS/mTLS) for the link:+++https://tsdr.uspto.gov/#caseNumber=78407735&caseType=SERIAL_NO&searchType=statusSearch+++[POSWEB(TM) {ext-link}] platform, deployed to more than two million devices in Brazil and other countries.
 * Architected and developed a high-performance and high-available (99.999% uptime) middleware to integrate more than 1 million mobile POS terminals.
-
-ifndef::single-skills-section[]
-[TIP]
-====
-[.text-left]
-Skills: C, TCP/IP, TLS, Cryptography.
-====
-endif::[]
 
 endif::[]
 
@@ -290,8 +255,7 @@ endif::[]
 
 == Languages
 
-* English: Full Professional Proficiency (C1 Level)
-* Portuguese: native
+English: Full Professional Proficiency (C1 Level) | Portuguese: Native
 
 ifdef::footnotes-on-next-page[]
 <<<
