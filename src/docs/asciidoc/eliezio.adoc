@@ -17,6 +17,7 @@
 :tag-riocard: Electronic ticketing tech for public transport
 :tag-fidelity: A global investment and financial services firm
 :fn-muxi: footnote:muxi[Muxi is a financial technology company that develops platforms for the payment market.]
+:fn-muxi-ref: footnote:muxi[]
 
 .Eliezio *Oliveira*
 ****
@@ -29,7 +30,7 @@ icon:envelope[set=fas,role=icon] link:mailto:eliezio@pm.me[eliezio@pm.me] | icon
 
 == Professional Summary
 
-Lead software engineer with 18+ years building distributed backend systems in Java, Kotlin, and Spring Boot. Deep experience in microservices, REST and GraphQL API design, PostgreSQL performance tuning, applied cryptography and HSM integration, and AWS/Kubernetes delivery. Strong computer science foundation, broad technical range, and a relentless focus on designing and delivering robust, well-crafted solutions.
+Lead software engineer with 20+ years building distributed backend systems in Java, Kotlin, and Spring Boot. Deep experience in microservices, REST and GraphQL API design, PostgreSQL performance tuning, applied cryptography and HSM integration, and AWS/Kubernetes delivery. Strong computer science foundation, broad technical range, and a relentless focus on designing and delivering robust, well-crafted solutions.
 
 ifdef::single-skills-section[]
 == Technical Skills
@@ -181,7 +182,7 @@ endif::[]
 
 endif::[]
 
-=== Lead Software Engineer {cal} [.tenure]#2008 - 2014, 2016 - 2018#
+=== Lead Software Engineer {cal} [.tenure]#Aug 2016 - Aug 2018#
 [discrete]
 ==== link:https://www.riocardmais.com.br/[RioCard Tecnologia {ext-link}] | [.tagline]#{tag-riocard}# | Rio de Janeiro, Brazil
 
@@ -197,9 +198,30 @@ Skills: Java, Netty, Websockets, Java Cryptography Extension, TLS, Spring Boot, 
 endif::[]
 
 ifdef::exp-system-programming[]
-=== Senior Software Engineer {cal} [.tenure]#2004 - 2008, 2014 - 2016#
+=== Lead Software Engineer {cal} [.tenure]#Aug 2014 - Aug 2016#
 [discrete]
 ==== link:https://www.muxi.com.br/[Muxi Tecnologia em Pagamentos S.A. {ext-link}] | [.tagline]#{fn-muxi}# | Rio de Janeiro, Brazil
+
+* Tech-led a 6-engineer team designing and building a payment scheme to strengthen the security of web-based credit card transactions, owning the architecture from protocol design through implementation.
+
+ifndef::single-skills-section[]
+[TIP]
+====
+[.text-left]
+Skills: Java, Spring, Angular, REST API, Payment Security, Cryptography, POS Terminals.
+====
+endif::[]
+
+endif::[]
+
+=== Senior Software Engineer {cal} [.tenure]#Aug 2008 - Aug 2014#
+[discrete]
+==== link:https://www.riocardmais.com.br/[RioCard Tecnologia {ext-link}] | [.tagline]#{tag-riocard}# | Rio de Janeiro, Brazil
+
+ifdef::exp-system-programming[]
+=== Senior Software Engineer {cal} [.tenure]#Aug 2004 - Aug 2008#
+[discrete]
+==== link:https://www.muxi.com.br/[Muxi Tecnologia em Pagamentos S.A. {ext-link}] (formerly APPI Tecnologia) | [.tagline]#{fn-muxi-ref}# | Rio de Janeiro, Brazil
 
 * Architected and led the development of the first wide-deployed communication stack (TCP/IP, TLS/mTLS) for the link:+++https://tsdr.uspto.gov/#caseNumber=78407735&caseType=SERIAL_NO&searchType=statusSearch+++[POSWEB(TM) {ext-link}] platform, deployed to more than two million devices in Brazil and other countries.
 * Architected and developed a high-performance and high-available (99.999% uptime) middleware to integrate more than 1 million mobile POS terminals.

@@ -10,6 +10,10 @@ repositories {
 }
 
 tasks.asciidoctorPdf {
+    asciidoctorj {
+        attributes(mapOf("exp-system-programming" to ""))
+    }
+
     fontsDirs(listOf("src/docs/asciidoc/fonts"))
     setTheme("cv")
     setOutputDir(file("cv"))

@@ -63,7 +63,7 @@ admonition:
   background_color: $base-color-lotion
   font-family: M+ 1mn
   font-size: 10
-  padding: 7
+  padding: 5
   icon:
     tip:
       size: 14
@@ -108,3 +108,9 @@ table:
 list:
   indent: 10
   item-spacing: 2
+
+prose:
+  margin-bottom: 8
+
+block:
+  margin-bottom: 8
