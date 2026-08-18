@@ -32,6 +32,13 @@ base:
     white: #ffffff
 
 role:
+  badge:
+    background-color: $base-color-accent
+    font-color: $base-color-white
+    border-radius: 3
+    border-offset: 2
+    font-size: 8.5
+    font-family: Calibri
   icon:
     font-size: 12
     font-color: $base-color-accent
