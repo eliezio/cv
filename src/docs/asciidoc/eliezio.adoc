@@ -76,6 +76,7 @@ endif::[]
 
 * Cut database round-trips on the heaviest configuration endpoints from up to 3,300 queries per request to 1, replacing lazy-loading cascades with JPA entity graphs, and built a compatibility test kit (TCK) that verified the optimization left the REST API and Kafka messaging contracts untouched, comparing every response and published payload against the pre-change build.
 * Diagnosed production incidents and cross-environment performance discrepancies across a Java and Spring microservice estate, investigating container restarts and using Glowroot to trace query-time differences between pre-production and production.
+* Designed and built link:https://github.com/eliezio/resync[resync {ext-link}], which refreshes lower environments from a production Oracle database by merging on natural identity instead of copying: it topologically orders entities, remaps foreign keys through per-entity id-maps, and preserves data created in the target since the last refresh.
 
 ifndef::single-skills-section[]
 [TIP]

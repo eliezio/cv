@@ -42,7 +42,7 @@ role:
     font-style: normal
     line-height: 0.2
   tagline:
-    font-size: 11
+    font-size: 12
   tenure:
 
 # Used for the top banner
@@ -51,12 +51,12 @@ sidebar:
   background_color: $base-color-accent
   font-color: $base-color-white
   font-style: normal
-  font-size: 15
-  padding: [0.10in, 0.5in, 0.15in, 0.5in]
+  font-size: 13
+  padding: [0.06in, 0.4in, 0.08in, 0.4in]
   line-height: 0.1
   title:
     font-style: normal
-    font-size: 30
+    font-size: 24
     font-color: $base-color-white
 
 admonition:
