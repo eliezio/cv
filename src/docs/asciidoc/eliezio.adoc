@@ -88,13 +88,17 @@ endif::[]
 ==== link:https://www.riocardmais.com.br/[RioCard Tecnologia {ext-link}] | [.tagline]#{tag-riocard}# | Rio de Janeiro, Brazil (Remote)
 
 * Led the migration of cryptographic services from IBM z/OS ICSF to cloud HSMs (AWS CloudHSM, later Oracle OCI Vault), enabling client applications to start migration three months earlier through HSM abstraction and simplified integration.
+* Designed and built CryptoApi, the Quarkus service behind that migration: an API-first REST surface covering card security, digital signature, key distribution and receipt operations, authenticated by mutual TLS with per-client certificates and per-client endpoint authorization across the five consuming applications.
+* Shipped a Java 8-compatible client SDK generated from the OpenAPI specification, plus an Oracle PL/SQL integration path backed by Oracle Wallet, so both legacy applications and database stored procedures could adopt the service without changing runtime or platform.
+* Enforced the API contract in CI with Spectral linting, Pact consumer-driven contracts and Schemathesis property-based testing in both positive and negative modes, holding quality with ArchUnit rules, Pitest mutation testing and 100% coverage on application packages.
+* Automated security verification as part of the test suite, covering TLS posture and a role-versus-endpoint authorization matrix.
 * Partnered with the Information Security Group to design and conduct a new key ceremony, ensuring secure key management and compliance during the transition to cloud environments.
 
 ifndef::single-skills-section[]
 [TIP]
 ====
 [.text-left]
-Skills: Java 17, Quarkus, Microservices, MicroProfile Fault Tolerance, Hexagonal Architecture, REST API, API First, Hashicorp Vault, Docker, Kubernetes, AWS CloudHSM, Oracle OCI, TDD, ATDD, Resilience Testing, Mutation Testing, Prometheus.
+Skills: Java 17, Quarkus, Microservices, MicroProfile Fault Tolerance, Hexagonal Architecture, DDD, REST API, API First, OpenAPI, mTLS, Oracle PL/SQL, Pact, Schemathesis, ArchUnit, Mutation Testing (Pitest), Gatling, HashiCorp Vault, AWS CloudHSM, Oracle OCI, JOSE/JWT, Docker, Kubernetes, GitLab CI, SonarQube, Error Prone, NullAway, TDD, ATDD, Resilience Testing, Prometheus, OpenTelemetry, Grafana.
 ====
 endif::[]
 
